@@ -91,6 +91,7 @@ const Header: NextPage<HeaderType> = ({ className = "" }) => {
   }
 
   return (
+    console.log("build check"),
     <header
       className={`${styles.header} ${className} ${showHeader ? "" : styles.headerHidden}`}
     >
