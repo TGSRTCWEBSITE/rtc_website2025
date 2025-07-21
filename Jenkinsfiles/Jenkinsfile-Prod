@@ -26,7 +26,7 @@ pipeline {
                     echo 'Installing Node Modules'
                     sh 'npm install --ignore-scripts'
                     echo 'Setup Environment variables'
-                    sh 'aws s3 cp s3://${S3_ENV_BUCKET}/prod.env .env --profile TGSRTC-Client'
+                    sh 'aws s3 cp s3://${S3_ENV_BUCKET}/prod.env .env'
                     echo 'Generating Build Artefact'
                     sh 'npm run build'
                 }
@@ -36,14 +36,14 @@ pipeline {
             steps {
                 script {
                     sh 'aws --version'
-                    sh 'aws s3 cp dist/ s3://${S3_BUCKET}/ --recursive --profile TGSRTC-Client'
+                    sh 'aws s3 cp dist/ s3://${S3_BUCKET}/ --recursive'
                 }
             }
         }
         stage('CloudFront Invalidation') {
             steps {
                 script {
-                    sh 'aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths "/*" --profile TGSRTC-Client'
+                    sh 'aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths "/*"'
                 }
             }
         }
