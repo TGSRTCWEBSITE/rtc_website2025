@@ -1,0 +1,56 @@
+pipeline {
+    agent any
+    environment {
+        S3_BUCKET = 'tgsrtc-production'
+        DISTRIBUTION_ID = 'E7IUK35KFZTT1'
+        PRODUCTION_LINK = 'https://tgsrtc.telangana.gov.in/'
+        S3_ENV_BUCKET = 'deploymentenv'
+    }
+    stages {
+        stage('get_commit_msg') {
+            steps {
+                script {
+                    env.GIT_COMMIT_MSG = sh (script: 'git log -1 --pretty=%B ${GIT_COMMIT}', returnStdout: true).trim()
+                    GIT_COMMIT_EMAIL = sh (
+                        script: 'git --no-pager show -s --format=\'%ae\'',
+                        returnStdout: true
+                    ).trim()
+                    echo "Git committer email: ${GIT_COMMIT_EMAIL}"
+                    echo "${GIT_COMMIT_MSG}"
+                }
+            }
+        }
+        stage('build') {
+            steps {
+                nodejs('TSRTC') {
+                    echo 'Installing Node Modules'
+                    sh 'npm install --ignore-scripts'
+                    echo 'Setup Environment variables'
+                    sh 'aws s3 cp s3://${S3_ENV_BUCKET}/prod.env .env --profile TGSRTC-Client'
+                    echo 'Generating Build Artefact'
+                    sh 'npm run build'
+                }
+            }
+        }
+        stage('Upload to S3') {
+            steps {
+                script {
+                    sh 'aws --version'
+                    sh 'aws s3 cp dist/ s3://${S3_BUCKET}/ --recursive --profile TGSRTC-Client'
+                }
+            }
+        }
+        stage('CloudFront Invalidation') {
+            steps {
+                script {
+                    sh 'aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION_ID} --paths "/*" --profile TGSRTC-Client'
+                }
+            }
+        }
+    }
+    post {
+        always {
+            cleanWs()
+        }
+    }
+}
