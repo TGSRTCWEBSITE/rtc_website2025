@@ -1,0 +1,290 @@
+.feedbackFormCard {
+  background-color: var(--support-white);
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  box-sizing: border-box;
+  padding: var(--padding-21xl);
+  border-radius: var(--br-base);
+}
+
+.formTitle {
+  font-family: var(--font-playfair-display);
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  line-height: 31.99px;
+  text-align: left;
+  color: var(--primary-red);
+}
+
+.feedBackForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  gap: 25px;
+}
+
+.errorMessage {
+  position: absolute;
+  bottom: -20px;
+  color: var(--primary-red);
+  margin: 0px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-montserrat);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  position: relative;
+}
+
+.label {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  line-height: 14.63px;
+  text-align: left;
+  color: var(--text-black);
+}
+
+/* styles for removing spin button in the input field text  */
+.noSpin {
+  -moz-appearance: textfield;
+}
+
+.noSpin::-webkit-inner-spin-button,
+.noSpin::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* disabled the default browser icons  */
+input.inputField::-webkit-contacts-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+.inputField {
+  height: 40px;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-border);
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  font-family: var(--font-montserrat);
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.suggestion::placeholder,
+.inputField::placeholder {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  line-height: 14.63px;
+  text-align: left;
+  color: var(--color-placeholder);
+}
+
+.suggestion {
+  height: 84px;
+  display: flex;
+  text-align: start;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  line-height: 14.63px;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-border);
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  resize: none;
+}
+
+.submitButton {
+  background: var(--button-color);
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  border-radius: var(--br-xxl);
+  width: 120px;
+  height: 36px;
+  padding: var(--padding-4xs) var(--font-size-5xl) var(--padding-3xs) var(--padding-5xl);
+  box-sizing: border-box;
+  box-shadow: var(--card-shadow1);
+  border: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  line-height: 17.07px;
+  color: var(--support-white);
+}
+
+@media screen and (max-width:1200px) {
+  .formTitle {
+    font-size: var(--font-size-xl);
+    line-height: 58px;
+  }
+
+  .feedbackFormCard {
+    padding: var(--padding-xl);
+    gap: var(--gap-xs);
+  }
+
+  .suggestion {
+    height: 64px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .formTitle {
+    font-size: var(--font-size-lg);
+    line-height: 48px;
+  }
+
+  .feedbackFormCard {
+    padding: var(--padding-lg);
+    gap: var(--gap-3xs);
+  }
+
+  .submitButton {
+    font-size: var(--font-size-xs);
+  }
+
+  .suggestion {
+    max-height: 64px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .formTitle {
+    font-size: var(--font-size-lg);
+    line-height: 48px;
+  }
+
+  .feedbackFormCard {
+    padding: var(--padding-base);
+    gap: var(--gap-5xs);
+  }
+
+  .submitButton {
+    font-size: var(--font-size-xs);
+  }
+
+  .suggestion {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width:880px) {
+  .formTitle {
+    font-size: var(--font-size-sm);
+    line-height: 32px;
+  }
+
+  .field {
+    gap: var(--gap-7xs);
+  }
+
+  .feedbackFormCard {
+    padding: var(--padding-xs);
+    gap: var(--gap-7xs);
+  }
+
+  .submitButton {
+    font-size: var(--font-size-xs);
+    height: 32px;
+    width: 110px;
+  }
+
+  .label {
+    font-size: var(--font-size-10-xs);
+  }
+
+  .inputField {
+    height: 35px;
+    font-size: var(--font-size-10-xs);
+    padding: var(--padding-3xs);
+  }
+
+  .suggestion {
+    height: 50px;
+  }
+
+  .inputField::placeholder {
+    font-size: var(--font-size-10-xs);
+  }
+
+
+}
+
+@media screen and (max-width:599px) {
+  .submitButton {
+    height: 36px;
+    align-self: center;
+    width: 100%;
+  }
+
+  .feedbackFormCard {
+    padding: var(--padding-27xs) var(--padding-xl) var(--padding-xl) var(--padding-27xs);
+  }
+
+  .formTitle {
+    font-size: var(--font-size-xl);
+    line-height: 26.66px;
+    display: flex;
+    text-align: center;
+  }
+
+  .label {
+    font-size: var(--font-size-xs);
+    line-height: 14.63px;
+  }
+
+  .inputField::placeholder {
+    font-size: var(--font-size-xs);
+    line-height: 14.63px;
+
+  }
+}
+
+@media screen and (max-width:360px) {
+
+  .feedbackFormCard {
+    padding: var(--padding-27xs) var(--padding-xl) var(--padding-xl) var(--padding-27xs);
+  }
+
+  .formTitle {
+    font-size: var(--font-size-xl);
+    line-height: 26.66px;
+    display: flex;
+    text-align: center;
+  }
+
+  .label {
+    font-size: var(--font-size-xs);
+    line-height: 14.63px;
+  }
+
+  .inputField::placeholder {
+    font-size: var(--gap-xs);
+    line-height: 14.63px;
+
+  }
+
+  .suggestion {
+    height: 84px;
+  }
+
+  .inputField {
+    height: 40px;
+  }
+}

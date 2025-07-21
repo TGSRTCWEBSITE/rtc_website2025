@@ -1,0 +1,121 @@
+.homeAboutTsrtc {
+  background-color: var(--support-white);
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--text-black);
+  font-family: var(--font-playfair-display);
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 99;
+}
+.contentSection {
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 102px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  align-self: stretch;
+  gap: var(--gap-base);
+  flex-shrink: 0;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tsrtcLogoIcon1 {
+  width: 100.5px;
+  height: 100.5px;
+  position: relative;
+  object-fit: cover;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 1166px;
+  gap: var(--gap-xs);
+}
+.aboutTgsrtc {
+  text-align: center;
+  position: relative;
+  font-weight: 600;
+  mix-blend-mode: normal;
+}
+.sinceItsInception {
+  width: 628.6px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--text-grey-body-text);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.aboutPicture {
+  width: 100%;
+}
+.wrapperAboutTsrtcImage {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+  justify-content: center;
+}
+.aboutTsrtcImage {
+  position: relative;
+  align-self: stretch;
+  height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+  object-fit: contain;
+  width: 100%;
+}
+.aboutTsrtcImageMobile{
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  .aboutTgsrtc {
+    font-size: var(--font-size-13xl);
+  }
+  .contentSection {
+    position: relative;
+  }
+}
+@media screen and (max-width: 599px) {
+  .aboutTgsrtc {
+    font-size: var(--font-size-18xl);
+  }
+  .aboutTsrtcImage{
+    display: none;
+  }
+  .aboutTsrtcImageMobile{
+    display: block;
+    width: 100%;
+  }
+}

@@ -1,0 +1,431 @@
+.dropdownMenu {
+  position: absolute;
+  background-color: var(--support-white);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 6px 6px;
+  top: 50%;
+  left: 0;
+  list-style-type: none;
+}
+
+.menuLabel {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 48px);
+  padding: 16px 24px;
+  align-items: center;
+  border-bottom: 1px solid var(--support-white);
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+  background-color: var(--color-light-green);
+}
+
+.menu {
+  font-family: var(--font-montserrat);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: left;
+  color: var(--support-white);
+}
+
+.dropdownItem {
+  padding: var(--padding-xs) var(--padding-base);
+  text-decoration: none;
+  display: block;
+  color: var(--color-black);
+  white-space: nowrap;
+}
+
+.headerTabLink:hover .dropdownMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.navTabs:hover {
+  color: var(--primary-red);
+}
+
+.navTabs:hover .dropdownMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerListItemLink {
+  width: 100%;
+}
+
+.headerHidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.tsrtcLogoIcon {
+  height: 70.4px;
+  width: 70.4px;
+  position: relative;
+  object-fit: contain;
+}
+
+.tsrtcMobileLogoIcon {
+  display: none;
+}
+
+.icon {
+  width: 289.1px;
+  height: 24.4px;
+  position: relative;
+}
+
+.telanganaStateRoadTransport {
+  align-self: stretch;
+  height: 11.3px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.tsrtcLogo,
+.tsrtcHeaderTextLogo {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-3xs-4);
+  max-width: 100%;
+}
+
+.tsrtcHeaderTextLogo {
+  width: 425px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs-9);
+}
+
+.tsrtcLogo {
+  width: 504px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+
+.reservations {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 26px;
+  display: inline-block;
+  min-width: max-content;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navTabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-black);
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.activeTab {
+  color: var(--primary-red);
+  font-weight: 700;
+  padding-bottom: 8px;
+  border-bottom: 4px solid var(--primary-green);
+}
+
+.toggleIcon {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.rotated {
+  transform: rotate(0deg);
+}
+
+.header,
+.tabContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+
+.tabContainer {
+  max-width: fit-content;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-decoration: none;
+  column-gap: 20px;
+}
+
+.headerTabLink {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.listItem {
+  text-decoration: none;
+}
+
+.header {
+  align-self: stretch;
+  box-shadow: var(--card-shadow);
+  background-color: var(--support-white);
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-11xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: fixed;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--text-black);
+  font-family: var(--font-montserrat);
+  top: 0;
+  z-index: 999;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.header:hover {
+  background: var(--support-white);
+}
+
+.slideMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 360px;
+  height: 100%;
+  /*Safari Hamburger issue fix */
+  background: var(--color-light-green) url(../public/hamburger-menu-map.webp) no-repeat center center / cover;
+  box-shadow: -2px 0 5px var(--color-gray-200);
+  transition: right 0.3s ease;
+  z-index: 1000;
+  overflow: scroll;
+}
+
+.slideMenu,
+.menuList {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuList {
+  width: calc(100% - 40px);
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.closeIconSection {
+  display: flex;
+  justify-content: flex-end;
+  right: -10px;
+  top: -10px;
+}
+
+.closeIcon {
+  cursor: pointer;
+}
+
+@media screen and (max-width:1330px) {
+  .tabContainer {
+    gap: var(--gap-mid)
+  }
+}
+
+@media screen and (min-width: 1276px) {
+  .headerMobileIconSection {
+    display: none;
+  }
+
+  .slideMenu {
+    display: none;
+  }
+
+  .dropdownItem:hover {
+    background-color: var(--color-whitesmoke);
+  }
+
+  .dropdownMenu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1275px) {
+  .dropdownMenu {
+    position: relative;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .dropdownMenu {
+    box-shadow: unset;
+    background-color: unset;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    top: 0;
+  }
+
+  .currentTab,
+  .dropdownItem {
+    font-weight: 500;
+    line-height: 26px;
+    padding: 0;
+    margin-left: 24px;
+  }
+
+  .currentTab {
+    font-weight: 700;
+    color: var(--primary-red);
+    border-bottom: 4px solid var(--primary-green);
+    padding: 0 0 2px 0;
+    margin: 0 24px;
+    line-height: 26px;
+    display: flex;
+  }
+
+  .currentPage {
+    font-weight: 700;
+    color: var(--primary-red);
+    border-bottom: 4px solid var(--primary-green);
+    line-height: 26px;
+    padding-bottom: 2px;
+    display: flex;
+    width: 100%;
+  }
+
+  .dropdownItem,
+  .reservations {
+    color: var(--support-white);
+    padding-bottom: 6px;
+  }
+
+  .tabContainer {
+    display: none;
+  }
+
+  .headerMobileIconSection {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+
+  .headerMobileIcon {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .headerTabLink {
+    width: 100%;
+  }
+
+  .navTabs {
+    gap: var(--gap-5xs);
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1285px) {
+  .header {
+    padding: var(--padding-xs) var(--padding-mini);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .slideMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .headerTabLink {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    width: unset;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .slideMenu {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .header {
+    padding: var(--padding-xs) var(--padding-xl);
+  }
+
+  /* Below are for header logo responsiveness */
+  .telanganaStateRoadTransport {
+    height: auto;
+    max-width: 200px;
+  }
+
+  .icon {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+  }
+
+  .tsrtcHeaderTextLogo {
+    gap: 3px;
+    width: fit-content;
+  }
+
+  .tsrtcLogoIcon {
+    height: 35px;
+    width: 35px;
+  }
+
+  .headerTabLink {
+    width: fit-content;
+    max-width: fit-content;
+  }
+
+  .tsrtcLogo {
+    gap: 5px;
+    max-width: fit-content;
+    width: fit-content;
+    /*Safari Hamburger to issue to fit the content. */
+  }
+
+
+  .headerMobileIconSection {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.headerTabMobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.whiteLine {
+  margin: 12px auto;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg,
+      var(--support-white) 0%,
+      rgba(255, 255, 255, 0) 157.36%);
+}
+
+.headerTabMobile:last-child .whiteLine {
+  display: none;
+}

@@ -1,0 +1,77 @@
+.roadSafety {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--support-white);
+  font-family: var(--font-montserrat);
+  background-color: var(--support-grey-bg);
+}
+.roadSafetyContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  color: var(--text-black);
+  font-family: var(--font-playfair-display);
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-81xl) var(--padding-81xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-27xl);
+}
+.roadSafetyTitle {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  max-width: 100%;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  text-align: center;
+}
+.roadSafetyCarouselContainer {
+  width: 1116px;
+  align-items: flex-start;
+  margin: 0;
+  max-width: 100%;
+}
+.roadSafetyCarousel{
+  width: 100%;
+  margin: 0;
+}
+@media screen and (max-width: 1275px) {
+  .roadSafetyContainer {
+    padding: var(--padding-15xl) var(--padding-61xl) var(--padding-23xl);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .roadSafetyContainer {
+    gap: var(--gap-7xl);
+    padding-top: 0;
+  }
+  .roadSafetyTitle {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .roadSafetyContainer {
+    padding:0 var(--padding-xl) var(--padding-41xl);
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 599px) {
+  .roadSafetyTitle {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+}

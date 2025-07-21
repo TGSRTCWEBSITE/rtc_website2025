@@ -1,0 +1,26 @@
+.container {
+    width: auto;
+    padding-top: var(--padding-base);
+    margin: 0;
+  }
+  .text {
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-sm);
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #020202;
+    padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+      var(--padding-base);
+    margin: 0;
+    background: #f1f8f4;
+  }
+  .noteText {
+    font-weight: 600;
+  }
+  @media screen and (max-width: 360px) {
+    .text {
+      font-size: var(--font-size-sm);
+    }
+  }
+  

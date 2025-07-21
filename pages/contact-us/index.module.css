@@ -1,0 +1,287 @@
+.contactUs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroSection {
+  width: 100%;
+  position: relative;
+  background-image: url(/contact-us-bg-web-image.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 100;
+  min-height: 400px;
+}
+
+.heroBackgroundImageWeb {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.containerClassName {
+  background-color: var(--support-white);
+  box-shadow: var(--card-shadow);
+}
+
+.contactUsContent {
+  position: relative;
+  display: flex;
+  gap: var(--gap-75xs);
+  max-width: 1166px;
+  padding: 4.9vw var(--padding-81xl) var(--padding-61xl);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.contactContentLeft {
+  display: flex;
+  flex-direction: column;
+  width: 581px;
+  max-width: 581px;
+}
+
+.contactUsTitle {
+  width: 375px;
+  color: var(--support-white);
+  text-shadow: var(--text-shadow);
+  font-family: var(--font-playfair-display);
+  font-size: var(--font-size-53xl);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 82px;
+  margin-bottom: 40px;
+}
+
+.contactUsAddress {
+  color: var(--support-white);
+  text-shadow: var(--text-shadow2);
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.contactUsEmail,
+.contactUsPhone,
+.contactUsHelpline {
+  color: var(--support-white);
+  text-shadow: var(--text-shadow2);
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.contactUsHelpline {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  border-radius: var(--br-7xs);
+  background: var(--color-background2);
+  padding: var(--padding-xs) var(--padding-base) var(--padding-xs) var(--padding-11xs);
+}
+
+.link {
+  color: var(--support-white);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.mailIcon,
+.phoneIcon {
+  margin-left: 14px;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  padding: var(--padding-9xs) 0;
+  align-self: flex-start;
+}
+
+.contactContentRight {
+  /* for feedback form it is set to display block */
+  display: block;
+  max-width: 509px;
+}
+
+.otherServices {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: var(--padding-61xl) var(--padding-81xl) var(--padding-81xl);
+  gap: var(--gap-13xl);
+  margin: 0 auto;
+  max-width: 1166px;
+}
+
+.otherServiceTitle {
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+  font-size: var(--font-size-5xl);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.accordion {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1220px) and (max-width:1365px) {
+  .containerClassName {
+    width: calc(100% - 204px) !important;
+  }
+
+  .extraDropdown {
+    width: calc(100% - 100px) !important;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .contactUsContent {
+    width: unset;
+  }
+
+  .contactContentLeft,
+  .contactContentRight {
+    width: 50%;
+    max-width: 50%;
+  }
+
+  .containerClassName {
+    width: calc(100% - 302px) !important;
+  }
+
+  .extraDropdown {
+    width: calc(100% - 200px) !important;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contactUsContent {
+    gap: var(--gap-18xl);
+  }
+
+  .contactUsTitle {
+    width: unset;
+    margin-bottom: 32px;
+    font-size: var(--font-size-39xl);
+    line-height: normal;
+  }
+
+  .contactUsEmail {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+
+  .contactUsPhone {
+    font-size: var(--font-size-base);
+  }
+
+  .containerClassName {
+    width: calc(100% - 200px) !important;
+  }
+
+  .contactUsHelpline {
+    font-size: var(--font-size-base);
+    line-height: normal;
+  }
+
+  .contactUsContent,
+  .otherServices {
+    padding: var(--padding-61xl) var(--padding-17xl);
+  }
+
+  .extraDropdown {
+    width: calc(100% - 80px) !important;
+  }
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+  .containerClassName {
+    width: calc(100% - 186px) !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contactUsContent {
+    flex-direction: column;
+    gap: var(--gap-11xl);
+    background-image: url(/contact-us-bg-mobile-image.webp);
+    background-size: cover;
+  }
+
+  .contactContentLeft,
+  .contactContentRight {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .containerClassName {
+    width: calc(100% - 150px) !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .contactUsAddress {
+    font-size: var(--font-size-base);
+  }
+
+  .contactUsContent {
+    gap: var(--gap-5xl);
+  }
+
+  .contactUsTitle {
+    margin-bottom: 24px;
+    font-size: var(--font-size-27xl);
+  }
+
+  .contactUsEmail {
+    font-size: var(--font-size-sm);
+    line-height: 26px;
+  }
+
+  .contactUsPhone {
+    font-size: var(--font-size-xs);
+  }
+
+  .contactUsHelpline {
+    font-size: var(--font-size-xs);
+    line-height: 20px;
+  }
+
+  .containerClassName {
+    width: calc(100% - 80px) !important;
+  }
+
+  .mailIcon,
+  .phoneIcon {
+    width: 20px;
+    height: 20px;
+    padding: var(--padding-10xs) 0;
+  }
+
+  .contactUsContent,
+  .otherServices {
+    padding: var(--padding-41xl) var(--padding-xl);
+  }
+
+  .extraDropdown {
+    width: calc(100% - 40px) !important;
+  }
+}

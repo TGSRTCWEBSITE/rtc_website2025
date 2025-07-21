@@ -1,0 +1,468 @@
+.button1 {
+  font-weight: 400;
+  font-family: var(--font-montserrat);
+  text-transform: none;
+  line-height: 19.6px;
+  font-size: var(--font-size-base);
+  color: #020202;
+  border-radius: var(--br-7xs);
+  border: 1px solid transparent !important;
+  background-color: var(--color-whitesmoke-300);
+  padding: var(--padding-smi) var(--padding-xs);
+  box-shadow: none;
+}
+.menuStyles{
+  font-family: var(--font-montserrat);
+}
+.button1:hover {
+  background-color: unset !important;
+  border: 1px solid #19ac58 !important;
+  box-shadow: none !important;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  max-width: 100%;
+}
+
+.inputBox1 {
+  border: 1px solid var(--color-gainsboro-200);
+  border-right: none;
+  border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: var(--padding-mid) var(--padding-base) var(--padding-mid)
+    var(--padding-5xl);
+  max-width: 100%;
+}
+
+.inputBox2 {
+  border-left: 1px solid var(--color-gainsboro-200);
+  border-top: 1px solid var(--color-gainsboro-200);
+  border-bottom: 1px solid var(--color-gainsboro-200);
+  padding: var(--padding-mid) 16px var(--padding-mini) 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.inputBox3 {
+  border-radius: 0 var(--br-80xl) var(--br-80xl) 0;
+  border: 1px solid var(--color-gainsboro-200);
+  gap: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.inputBox4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.inputBox5 {
+  margin-right: auto;
+}
+
+.formControl {
+  width: 210px;
+}
+
+.box2 {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box3 {
+  width: 100%;
+  display: none;
+}
+
+.exchangeIcon {
+  min-width: 28px;
+  height: 28px;
+  position: absolute;
+  right: -14px;
+  padding: 0;
+}
+
+.exchangeIcon:hover {
+  background: none;
+}
+
+.icons {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.intracity {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--text-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 59px;
+}
+
+.intercity {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 61px;
+}
+
+.cityToCityBus {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-base);
+  background-color: var(--color-mediumseagreen-300);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.cityToCityBus1 {
+  background-color: var(--support-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+  cursor: pointer;
+  border: 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+}
+
+.cityToCityBus:hover {
+  background-color: var(--color-mediumseagreen-100);
+}
+
+.cityToCityBus1:hover {
+  background-color: var(--color-mintcream-300);
+}
+
+.icons1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.searchTabs,
+.searchTabsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.searchTabs {
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--support-white);
+  overflow: hidden;
+  flex-direction: row;
+}
+
+.searchTabsContainer {
+  flex-direction: column;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.quickDates {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xs);
+}
+
+.today {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  font-family: var(--font-montserrat);
+  color: var(--text-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 49px;
+}
+
+.quickDates1 {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-2xs);
+}
+
+.tomorrow {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  font-family: var(--font-montserrat);
+  color: var(--text-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 85px;
+}
+
+.applyNow {
+  text-transform: none;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: center;
+  display: inline-block;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xl-5) var(--padding-5xl) var(--padding-7xl-5);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.frameInput {
+  margin: 0;
+  height: 13px;
+  width: 13px;
+}
+
+.iWantTo {
+  font-size: var(--font-size-sm);
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--text-black);
+  text-align: center;
+}
+
+.bookYourTicketFormTabs {
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+  max-width: 100%;
+  display: none;
+}
+
+.bookYourTicketForm {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+  max-width: 100%;
+  border-radius: 0 var(--br-base) var(--br-base) var(--br-base);
+  background-color: var(--support-white);
+  border-top: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-xs);
+  gap: var(--gap-xs);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.checkboxField {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  gap: var(--gap-5xs);
+}
+
+.datePickerInputProps {
+  padding: 0 !important;
+}
+
+@media (max-width: 1271px) {
+  .inputContainer {
+    width: 100% !important;
+  }
+
+  .inputBox1 {
+    border-bottom: none !important;
+    border-radius: var(--br-5xs) 0 0 0 !important;
+    width: 50%;
+  }
+
+  .inputBox2 {
+    border-bottom: none !important;
+    border-right: 1px solid var(--color-gainsboro-200);
+    border-radius: 0 var(--br-5xs) 0 0;
+    width: 50%;
+  }
+
+  .inputBox3 {
+    border-right: 1px solid var(--color-gainsboro-200) !important;
+    border-radius: 0 0 var(--br-5xs) var(--br-5xs) !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .box2 {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 791px) {
+  .box2 {
+    display: none;
+  }
+
+  .box3 {
+    display: flex;
+  }
+
+  .button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-2xll) var(--padding-mid)
+      var(--padding-2xll);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-381xl);
+    background: linear-gradient(90deg, #19ac58, #077f3b);
+    justify-content: center;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 750px) {
+  .iconButton {
+    padding: 8px;
+  }
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .inputBox1 {
+    width: auto;
+    display: flex;
+    border-right: 1px solid var(--color-gainsboro-200);
+    border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  }
+
+  .inputBox2 {
+    width: auto;
+    border-radius: 0px;
+  }
+
+  .inputBox4 {
+    flex-direction: row;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .formControl {
+    width: 256px;
+  }
+
+  .exchangeIcon {
+    right: 7%;
+    top: 54px;
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 630px) {
+  .inputBox4 {
+    flex-direction: column;
+    width: 100%;
+    gap: 0px;
+  }
+
+  .button1 {
+    width: 100%;
+  }
+  .box {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .bookYourTicketForm {
+    padding: var(--padding-base);
+  }
+
+  .exchangeIcon {
+    right: 7%;
+    top: 64px;
+    transform: rotate(90deg);
+  }
+  .inputBox1 {
+    padding: var(--padding-7xl) var(--padding-xs) var(--padding-base)
+      var(--padding-xs);
+  }
+
+  .inputBox2 {
+    padding: var(--padding-7xl) var(--padding-xs) var(--padding-base)
+      var(--padding-xs);
+  }
+
+  .box {
+    justify-content: space-between;
+  }
+
+  .inputBox5 {
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

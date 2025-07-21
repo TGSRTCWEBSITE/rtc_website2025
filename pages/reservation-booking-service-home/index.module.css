@@ -1,0 +1,37 @@
+.ReservationBookingServiceHome{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.ReservationBookingServiceHomeInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-81xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-63xl);
+  color: var(--text-black);
+  font-family: var(--font-montserrat);
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 1166px;
+}
+@media screen and (max-width: 1023px) {
+  .ReservationBookingServiceHomeInner {
+    padding: var(--padding-17xl);
+  }
+}
+@media screen and (max-width: 599px) {
+  .ReservationBookingServiceHomeInner {
+    padding: var(--padding-xl);
+  }
+}

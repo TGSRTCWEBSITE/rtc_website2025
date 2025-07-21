@@ -1,0 +1,79 @@
+.bgIcon {
+  height: 730px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -28px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.applyRenew,
+.busPassServices {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 92px;
+  font-weight: 600;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.applyRenew {
+  line-height: 32px;
+  font-weight: 500;
+}
+.applyRenewTravelEffortleWrapper,
+.busPassHeroBusPassService {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.applyRenewTravelEffortleWrapper {
+  flex-direction: column;
+  padding: var(--padding-83xl) 0 0;
+  margin-left: -578px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-montserrat);
+}
+.busPassHeroBusPassService {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-252xl) var(--padding-81xl) var(--padding-251xl);
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-53xl);
+  color: var(--support-white);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 750px) {
+  .busPassServices {
+    font-size: var(--font-size-39xl);
+    line-height: 74px;
+  }
+  .busPassHeroBusPassService {
+    padding: var(--padding-157xl) var(--padding-31xl) var(--padding-156xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .busPassServices {
+    font-size: var(--font-size-24xl);
+    line-height: 55px;
+  }
+  .applyRenew {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .busPassHeroBusPassService {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

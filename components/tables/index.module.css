@@ -1,0 +1,31 @@
+.tableContainer {
+  width: 100%;
+  margin-top: 24px;
+  box-shadow: var(--card-shadow) !important;
+}
+
+.tableHead {
+  background-color: var(--primary-green);
+  border-radius: 6px;
+}
+
+.tableHeadCell {
+  color: #ffffff !important;
+  font-family: var(--font-montserrat) !important;
+  font-size: var(--font-size-sm) !important;
+  font-weight: 600 !important;
+  min-width: 50px;
+}
+
+.oddRow {
+  background-color: #f7f7f7;
+}
+
+.tableCell {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  line-height: 17.07px;
+  text-align: left;
+  border-bottom: 0px !important;
+}

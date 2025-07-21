@@ -1,0 +1,108 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.slider {
+  width: 88%;
+  margin: 0 auto;
+  z-index: 10;
+}
+.secondarySlider {
+  width: 100%;
+}
+.multiple :global(div.slick-track) {
+  display: flex !important;
+}
+.slider :global(div.slick-arrow::before) {
+  display: none;
+}
+.slider :global(div.slick-slider) {
+  display: flex;
+  flex-direction: column;
+}
+.slider :global(div.slick-prev) {
+  left: -74px;
+  margin-top: -34px;
+}
+.slider :global(div.slick-next) {
+  right: -54px;
+  margin-top: -34px;
+}
+.slider :global(ul.secondary) {
+  margin: 0px;
+  margin-left: auto;
+  position: relative;
+  top: -51px;
+  margin-right: 77px;
+  right: -44px;
+  margin-top: -160px;
+}
+.slick-current{
+  width: 280px !important;
+}
+
+.button__bar {
+  display: flex !important;
+  gap: 16px;
+  vertical-align: middle;
+  margin: auto;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  width: 70px;
+  text-align: center;
+  margin-top: 32px;
+  justify-content: center;
+  align-self: center;
+}
+
+.button__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+}
+
+.button__bar li button {
+  border: none;
+  background: #d9d9d9;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 12px;
+  width: 12px;
+  border-radius: 7.5px;
+}
+
+.button__bar :global(li.slick-active) button {
+  background-color: #cd342b;
+}
+.secondary {
+  height: 0px !important;
+  margin: 0px;
+  margin-left: auto;
+  position: relative;
+  top: -51px;
+  margin-right: 77px;
+}
+
+@media screen and (max-width: 768px) {
+  .slider :global(div.slick-arrow) {
+    display: none;
+  }
+}
+@media screen and (max-width: 599px){
+  .slider :global(div.slick-prev) {
+    left: -42px;
+  }
+  .slider :global(div.slick-next) {
+    right: -22px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .secondary {
+    margin: auto;
+  }
+}

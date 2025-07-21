@@ -1,0 +1,154 @@
+.logisticsContentWrapper {
+  gap: var(--gap-3xs);
+  position: absolute;
+  top: 7.3vw;
+  left: 7.3vw;
+  display: flex;
+  flex-direction: column;
+  width: 599px;
+}
+.heroTitleStyles {
+  margin: 0;
+  mix-blend-mode: normal;
+  font-size: var(--font-size-53xl);
+  line-height: 82px;
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.heroSubTitleStyles {
+  position: relative;
+  margin: 0;
+  mix-blend-mode: normal;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+  max-width: 100%;
+  z-index: 1;
+}
+
+.bgIcon,
+.bgIconMobile {
+  width: 100%;
+  height: auto;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.bgIconMobile {
+  display: none;
+}
+
+.logisticRatesAndContainer {
+  margin: 0;
+  position: relative;
+  mix-blend-mode: normal;
+  z-index: 1;
+  font-size: inherit;
+  line-height: 82px;
+  font-weight: 600;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logisticHeroRatesTariffC {
+  overflow: hidden;
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-53xl);
+  color: var(--support-white);
+  font-family: var(--font-playfair-display);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 100;
+  min-height: 400px;
+}
+
+.logisticRatesAndTariffsCon {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1023px) {
+  .logisticsContentWrapper {
+    top: 12vw;
+    left: 7vw;
+  }
+
+  .heroTitleStyles {
+    font-size: var(--font-size-39xl);
+    line-height: 68px;
+  }
+
+  .heroSubTitleStyles {
+    font-size: var(--font-size-lgi);
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bgIcon {
+    display: none;
+  }
+
+  .bgIconMobile {
+    display: flex;
+  }
+
+  .logisticRatesAndContainer {
+    font-size: var(--font-size-39xl);
+    line-height: 66px;
+  }
+
+  .logisticHeroRatesTariffC {
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .logisticsContentWrapper {
+    width: 237px;
+    top: 34vw;
+    left: 6.4vw;
+  }
+
+  .heroTitleStyles {
+    font-size: var(--font-size-42xl);
+    line-height: 56px;
+  }
+
+  .heroSubTitleStyles {
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logisticRatesAndContainer {
+    font-size: var(--font-size-24xl);
+    line-height: 49px;
+  }
+
+  .heroSubTitleStyles {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .logisticHeroRatesTariffC {
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,168 @@
+.reservationSpecialBusTiming {
+  width: 100%;
+  position: relative;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.reservationHeroTourism {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  font-size: var(--font-size-53xl);
+  color: var(--support-white);
+  font-family: var(--font-playfair-display);
+  z-index: 100;
+  min-height: 300px;
+}
+
+.bgIcon,
+.bgIconMobile {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.bgIconMobile {
+  display: none;
+}
+
+.contentWrapper {
+  position: absolute;
+  top: 7.3vw;
+  left: 7.3vw;
+  display: flex;
+  flex-direction: column;
+  width: 599px;
+}
+
+.tgsrtcIsHappy,
+.tourism {
+  margin: 0;
+  mix-blend-mode: normal;
+}
+
+.tourism {
+  font-size: var(--font-size-53xl);
+  line-height: 82px;
+  font-weight: 600;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tgsrtcIsHappy {
+  margin-top: 10px;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+  max-width: 100%;
+  width: 599px;
+}
+
+.container {
+  padding: var(--padding-61xl) var(--padding-81xl) var(--padding-81xl) var(--padding-81xl);
+  width: calc(100% - 200px);
+  background: #f2f2f2;
+}
+
+.timingsContainer {
+  max-width: 1166px;
+  margin: 0 auto;
+}
+
+.headingText {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: center;
+  margin: 0px;
+}
+
+@media screen and (max-width: 1365px) {
+  .headingText {
+    margin-bottom: 24px;
+    font-size: var(--font-size-xl);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contentWrapper {
+    top: 12vw;
+    left: 7vw;
+  }
+
+  .tourism {
+    font-size: var(--font-size-42x);
+    line-height: normal;
+  }
+
+  .tgsrtcIsHappy {
+    width: 400px;
+    font-size: var(--font-size-16);
+    line-height: 28px;
+  }
+
+  .container {
+    padding: var(--padding-81xl) var(--padding-17xl) var(--padding-60);
+    width: calc(100% - 72px);
+    padding-top: 0;
+  }
+
+  .headingText {
+    margin-bottom: 24px;
+    font-size: var(--font-size-xl);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .bgIcon {
+    display: none;
+  }
+
+  .bgIconMobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .contentWrapper {
+    width: 237px;
+    left: 6.4vw;
+  }
+
+  .tourism {
+    font-size: var(--font-size-42xl);
+    line-height: 56px;
+  }
+
+  .tgsrtcIsHappy {
+    width: 237px;
+    margin-top: 8px;
+    font-size: var(--font-size-16);
+    line-height: 26px;
+  }
+
+  .container {
+    padding: var(--padding-81xl) var(--padding-xl) var(--padding-60) var(--padding-xl);
+    width: calc(100% - 40px);
+    padding-top: 0;
+  }
+
+  .headingText {
+    text-align: left;
+    font-size: var(--font-size-xl);
+    margin-bottom: 24px;
+  }
+}

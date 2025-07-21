@@ -1,0 +1,61 @@
+.textCardHeading {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    mix-blend-mode: normal;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.textCardSubHeading {
+    margin: 0;
+    font-size: var(--font-size-sm);
+    color: var(--text-grey-body-text);
+    font-family: var(--font-montserrat);
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.textCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: var(--font-size-xl);
+    color: var(--text-grey-body-text);
+    font-family: var(--font-montserrat);
+    width: 240px;
+    height: 120px;
+    box-shadow: var(--table-shadow);
+    border-radius: var(--br-xs);
+    background-color: var(--support-white);
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: 0 var(--padding-xl);
+}
+.separatorLine{
+    display: none;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0,0.3) 0%, rgba(255, 255, 255,0.3) 100%);
+  }
+@media screen and (max-width: 450px) {
+    .textCards{
+      height: unset;
+      box-shadow: unset;
+      border-radius: unset;
+      padding: var(--padding-base) 0;
+    }
+    .textCardHeading ,
+    .textCardSubHeading{
+      font-size: var(--font-size-sm);
+      line-height: 26px;
+    }
+    .separatorLine {
+      display: block;
+    }
+    .textCardContianer div:last-child{
+        display: none;
+      }
+}

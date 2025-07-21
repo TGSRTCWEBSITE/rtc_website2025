@@ -1,0 +1,33 @@
+.tableTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+}
+.title {
+  position: relative;
+  font-weight: 600;
+  margin: 0;
+  font-size: inherit;
+  line-height: 26px;
+  font-family: inherit;
+  display: inline-block;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.ratesTable3{
+  margin: 0 !important;
+  width: 100%;
+}
+@media screen and (max-width: 599px) {
+  .title {
+    font-size: var(--font-size-base);
+  }
+}

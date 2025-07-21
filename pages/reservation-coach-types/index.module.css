@@ -1,0 +1,90 @@
+.reservationBusDetails {
+  width: 100%;
+  position: relative;
+  background-color: var(--support-grey-bg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--support-white);
+  font-family: var(--font-montserrat);
+}
+.contentContainer {
+  width: 85.35%;
+  box-sizing: border-box;
+  max-width: 1166px;
+  margin: 0 auto;
+}
+.coachTypesHeading {
+  margin-bottom: 40px;
+  margin-top: 80px;
+  align-self: center;
+}
+
+.seatLayoutOfTgsrtcContaineParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  width: 100%;
+  width: 1166px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--primary-red);
+  font-family: var(--font-montserrat);
+}
+.typesOfCoaches {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-27xl);
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+  mix-blend-mode: normal;
+  color: var(--text-black);
+  align-self: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .coachTypesHeading {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contentContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0 var(--padding-17xl);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .reservationBusDetails {
+    gap: var(--gap-21xl);
+  }
+  .seatLayoutOfTgsrtcContaineParent {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 599px) {
+  .reservationBusDetails {
+    gap: var(--gap-xl);
+  }
+  .contentContainer {
+    padding: 0 var(--padding-xl);
+  }
+  .coachTypesHeading {
+    margin-top: 40px;
+    margin-bottom: unset;
+  }
+  .typesOfCoaches {
+    font-size: var(--font-size-13xl);
+  }
+}

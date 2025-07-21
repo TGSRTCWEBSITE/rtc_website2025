@@ -1,0 +1,54 @@
+.animation {
+    position: fixed;
+    top: 0vh;
+    left: 22px;
+    z-index: 99;
+}
+
+.imageContainer {
+    position: fixed;
+    top: 70vh;
+    left: 0px;
+    z-index: 99;
+}
+
+.girlImage {
+    width: 50.2px;
+    height: 50.26px;
+}
+
+.boyImage {
+    width: 50.69px;
+    height: 50.6px;
+}
+
+.house {
+    width: 50.12px;
+    height: 50.7px;
+}
+
+.plant1 {
+    width: 50.19px;
+    height: 50.6px;
+}
+
+.plant2 {
+    width: 50.96px;
+    height: 50.27px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  
+  @media (max-width: 1023px) {
+    .animation {
+      display: none;
+    }
+  }
+  

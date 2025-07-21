@@ -1,0 +1,21 @@
+.roadSafetyCard{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.roadSafetyCardWebImage ,
+.roadSafetyCardMobileImage {
+    width: 100%;
+    height: 100%;
+}
+.roadSafetyCardMobileImage{
+    display: none !important;
+}
+@media screen and (max-width:599px) {
+    .roadSafetyCardWebImage{
+        display: none !important;
+    }
+    .roadSafetyCardMobileImage{
+        display: block !important;
+    }
+}

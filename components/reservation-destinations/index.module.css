@@ -1,0 +1,67 @@
+.reservationDestinations,
+.tourismCards {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.reservationDestinations {
+  align-self: stretch;
+  background-color: var(--support-grey-bg);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-61xl) 0 var(--padding-81xl);
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--text-black);
+  font-family: var(--font-playfair-display);
+}
+.destinationsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.destinations {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+.tourismCards {
+  width: 1152px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-5xl);
+  color: var(--primary-red);
+}
+@media screen and (max-width: 1170px) and (min-width:900px) {
+  .tourismCards{
+    width: calc(90vw + 30px);
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width:1023px) {
+  .destinations {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 900px) {
+  .tourismCards{
+    width: 560px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .tourismCards{
+    width: 100%;
+  }
+  .reservationDestinations {
+    padding: var(--padding-41xl) var(--padding-5xl);
+  }
+  .destinations {
+    font-size: var(--font-size-13xl);
+  }
+}

@@ -1,0 +1,209 @@
+.aboutTsrtcLeadership {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: var(--padding-81xl) var(--padding-81xl);
+  gap: var(--gap-13xl);
+  max-width: 1166px;
+  margin: 0 auto;
+}
+
+.aboutTsrtcLeadershipContent {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--support-white);
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-family: var(--font-playfair-display);
+  font-size: var(--font-size-27xl);
+  font-weight: 600;
+  margin: 0px;
+}
+
+.tsrtcLeadershipCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-21xl);
+
+}
+
+.leadershipCardWrapper:first-child{
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.leadershipCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: var(--br-base);
+  overflow: hidden;
+  width: 314px;
+  height: 497px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: var(--padding-5xl) var(--padding-5xl);
+  background: linear-gradient(to top, #e3f7ff -1%, #ffffff 78.33%);
+  gap: var(--gap-3xs);
+}
+
+.cardBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(200.37deg, #e3f7ff -1%, #ffffff 78.33%);
+}
+
+.tsrtcLeadershipImagesParent {
+  position: relative;
+}
+ /* modified the leadership imaegs styling */
+.tsrtcLeadershipImages {
+  max-width: 314px;
+  max-height: 405px;
+  position: relative;
+  border: 1px solid rgba(47, 49, 48, 1);
+  border-radius: var(--br-xs);
+ 
+}
+
+.leaderImage {
+  
+  width: 100%;
+  height: 405px;
+  border-radius: 11px;
+  object-fit: cover;
+  position: relative;
+  max-height: inherit;
+}
+
+.twitterLinks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var( --gap-xl);
+}
+.twitterLinkSection1,.twitterLinkSection2{
+  gap: var( --gap-5xs);
+  display: flex;
+  align-items: center;
+}
+.linkName{
+color: var(--text-black);
+font-family: var(--font-montserrat);
+font-size: var( --font-size-xs);
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.nameBackground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: var(--color-whitesmoke-400);
+}
+
+.texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--padding-5xs);
+  max-width: 314px;
+  max-height: 416px;
+}
+
+.position {
+  font-weight: 400;
+  text-align: center;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-sm);
+}
+
+.leaderNameText {
+  text-align: center;
+  margin: 0px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-playfair-display);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1331px) {
+  .tsrtcLeadershipCards {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 1080px) {
+  .leadershipCard {
+    height: 397px;
+    width: 269px;
+  }
+
+  .tsrtcLeadershipImages {
+    max-width: 264px;
+    max-height: 319px;
+  }
+
+  .texts {
+    max-width: 264px;
+    max-height: 319px;
+  }
+
+  .leaderNameText {
+    font-size: var(--font-size-base);
+  }
+
+  .position {
+    font-weight: 400;
+    text-align: center;
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-sm);
+  }
+
+  .tsrtcLeadershipCards {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutTsrtcLeadership {
+    padding: var(--padding-31xl);
+    gap: var(--gap-5xl);
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .aboutTsrtcLeadership {
+    padding: var(--padding-xl);
+    padding-top: var(--padding-41xl);
+    padding-bottom: var(--padding-41xl);
+  }
+
+  .title {
+    font-size: var(--font-size-13xl);
+  }
+
+  .tsrtcLeadershipCards {
+    gap: 40px;
+  }
+
+  .leadershipCard {
+    border-radius: var(--br-xs);
+    gap: var(--padding-base);
+  }
+}

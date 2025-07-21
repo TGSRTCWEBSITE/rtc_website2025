@@ -1,0 +1,100 @@
+.reservationKpis {
+  display: flex;
+  align-self: stretch;
+  background-color: var(--support-white);
+  flex-direction: column;
+  padding: var(--padding-60xl) 0;
+  font-size: var(--font-size-63xl);
+  color: var(--primary-green);
+  font-family: var(--font-montserrat);
+  align-items: center;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: var(--gap-61xl);
+  box-sizing: border-box;
+}
+.kpiIndex{
+  display: flex;
+  gap: var(--gap-61xl);;
+}
+.kParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.kpiHeading {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  mix-blend-mode: normal;
+  flex-shrink: 0;
+  font-size: var(--font-size-63xl);
+  line-height: normal;
+}
+.kpiMetric {
+  font-size: var(--font-size-29xl);
+  line-height: normal;
+}
+.kpiLabel {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--text-grey-body-text);
+  mix-blend-mode: normal;
+  flex-shrink: 0;
+  text-align: center;
+}
+.lineSeparator {
+  height: 100px;
+  width: 1px;
+  background: linear-gradient(45deg, transparent, black, transparent);
+}
+.kpiIndex:last-child  .lineSeparator{
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  .container {
+    gap: var(--gap-41xl);
+  }
+  .reservationKpis {
+    padding: var(--padding-70xl) 0;
+  }
+  .kpiHeading {
+    font-size: var(--font-size-64xl);
+  }
+  .kpiMetric {
+    font-size: var(--font-size-36xs);
+  }
+}
+@media screen and (max-width: 750px) {
+  .kpiIndex,
+  .container {
+    flex-direction: column;
+    gap: var(--gap-23xl);
+    align-items: center;
+  }
+  .lineSeparator {
+    width: 100px;
+    height: 1px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .kpiIndex,
+  .container {
+    gap: var(--gap-13xl);
+  }
+  .reservationKpis {
+    padding: var(--padding-41xl) 0;
+  }
+  .kpiHeading {
+    font-size: var(--font-size-27xl);
+  }
+  .kpiMetric {
+    font-size: var(--font-size-5xl);
+  }
+}

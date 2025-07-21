@@ -1,0 +1,59 @@
+.bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-200);
+}
+.before6Am {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: calc(100% - 48px);
+  z-index: 1;
+}
+.accordianDropdowntrueIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.accordion,
+.accordionItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.accordion {
+  flex: 1;
+  box-shadow: var(--table-shadow);
+  overflow: hidden;
+  padding: var(--padding-base) var(--padding-5xl);
+  position: relative;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.accordionItems {
+  width: 1166px;
+  padding: 0 0 var(--padding-5xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--text-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .before6Am {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+}

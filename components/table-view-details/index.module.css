@@ -1,0 +1,65 @@
+.tableContainer {
+  width: 100%;
+  border: 0px;
+  box-shadow: var(--card-shadow) !important;
+}
+
+.tableHead {
+  background-color: var(--primary-green);
+  border-radius: 6px;
+}
+
+.tableHeadCell {
+  color: var(--support-white) !important;
+  font-family: var(--font-montserrat) !important;
+  font-size: var(--font-size-sm) !important;
+  border-bottom: 0px !important;
+  min-width: 50px;
+}
+
+.oddRow {
+  background-color: var(--color-whitesmoke-200);
+}
+
+.tableCell {
+  font-family: var(--font-montserrat) !important;
+  font-size: var(--font-size-sm) !important;
+  font-weight: 400 !important;
+  line-height: 17.07px;
+  text-align: left;
+  position: relative;
+  border-bottom: 0px !important;
+}
+
+.actionButton {
+  visibility: hidden;
+  border: none;
+  background: none;
+  color: var(--primary-green);
+  cursor: pointer;
+  padding: 0;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+.additionalClassName {
+  cursor: pointer;
+}
+
+.additionalClassName:hover .actionButton {
+  visibility: visible;
+  padding: 0px;
+}
+
+@media screen and (max-width: 1023px) {
+  .actionButton {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .centerAlign {
+    text-align: center !important;
+  }
+}

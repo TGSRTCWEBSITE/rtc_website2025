@@ -1,0 +1,7 @@
+/* faqs accordian tab styles */
+.text{ 
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    margin: 0px;
+    padding-top: 16px;
+}

@@ -1,0 +1,19 @@
+.singleChip {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: var(--br-80xl);
+    background-color: var(--color-mintcream-200);
+    padding: var(--padding-11xs) var(--padding-xs);
+}
+.chipContent {
+    display: inline-block;
+    position: relative;
+    line-height: 26px;
+    mix-blend-mode: normal;
+}
+@media screen and (max-width: 900px) {
+    .singleChip {
+      font-size: var(--font-size-xs);
+    }
+}

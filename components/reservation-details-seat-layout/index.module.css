@@ -1,0 +1,638 @@
+.seatLayoutOfTgsrtc {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+.theCorporationHas {
+  max-width: 1160px;
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-montserrat);
+  color: var(--text-black);
+}
+.seatLayoutOfTgsrtcTexts {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  padding-bottom: var(--padding-13xl);
+}
+.guidingPrinciplesOf {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 76px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-montserrat);
+  color: var(--text-black);
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bulltetPointPlaceholder {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder1,
+.monthlySeasonTickets1 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets1 {
+  width: 1104px;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 103%;
+}
+.bulletPoint1 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder2,
+.monthlySeasonTickets2 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets2 {
+  width: 1104px;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 103%;
+}
+.bulletPoint2 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder3,
+.monthlySeasonTickets3 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets3 {
+  height: 52px;
+  width: 1104px;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 103%;
+}
+.bulletPoint3 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder4,
+.monthlySeasonTickets4 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets4 {
+  width: 1104px;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 103%;
+}
+.bulletPoint4 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder5,
+.monthlySeasonTickets5 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets5 {
+  width: 1104px;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 103%;
+}
+.bulletPoint5 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder6,
+.monthlySeasonTickets6 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets6 {
+  width: 1104px;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 103%;
+}
+.bulletPoint6 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder7,
+.monthlySeasonTickets7 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets7 {
+  width: 1104px;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 103%;
+}
+.bulletPoint7 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder8,
+.monthlySeasonTickets8 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets8 {
+  width: 1104px;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 103%;
+}
+.bulletPoint8 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder9,
+.monthlySeasonTickets9 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets9 {
+  width: 1104px;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 103%;
+}
+.bulletPoint9 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder10 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets10 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint10 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder11 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets11 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint11 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder12 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets12 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint12 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder13 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets13 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint13 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder14 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets14 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint14 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder15 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets15 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint15 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder16 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets16 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint16 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder17 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets17 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint17 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder18 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets18 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint18 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder19 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets19 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint19 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulletPoints {
+  font-size: var(--font-size-base);
+  color: var(--text-grey-body-text);
+}
+.bulletPointContainer,
+.bulletPoints,
+.seatLayoutBulletPoints {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.seatLayoutBulletPoints {
+  border-radius: var(--br-base);
+  box-sizing: border-box;
+  padding: var(--padding-21xl);
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-sm);
+  color: var(--text-black);
+  font-family: var(--font-montserrat);
+}
+.busDust {
+  width: 128px;
+  height: 918px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  left: -100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.busDustMobile {
+ display: none;
+}
+.seatLayoutOfTgsrtcContaine {
+  padding-top: var( --padding-61xl);
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  /* removes seat layout content box */
+  display:none;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+}
+.bulletPointChange{
+  padding-top: 0px !important;
+  padding-left: var(--padding-lg);
+  margin: 0;
+}
+@media screen and (max-width: 1023px) {
+  .busDust{
+    display: none;
+  }
+  .busDustMobile {
+    display: block;
+   }
+  .seatLayoutBulletPoints {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  
+  .seatLayoutOfTgsrtcContaine{
+    padding-top: unset;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .busDust{
+    display: none;
+  }
+  .busDustMobile {
+    display: block;
+   }
+  .seatLayoutOfTgsrtc {
+    font-size: var(--font-size-5xl);
+  }
+  .bulletPointContainer{
+    gap: var(--gap-5xs);
+  }
+  .seatLayoutBulletPoints {
+   padding: var(  --padding-base);
+    box-sizing: border-box;
+  }
+  .seatLayoutOfTgsrtcContaine{
+    padding-top: unset;
+  }
+  .bulletPointChange{
+    margin: 0;
+    margin-left: 12px;
+    padding: 0;
+  }
+  .bulletPointChange li{
+    font-size: var(--font-size-sm)
+  }
+  .theCorporationHas{
+    width: 101%;
+  }
+}

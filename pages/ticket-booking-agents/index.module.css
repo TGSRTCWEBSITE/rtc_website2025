@@ -1,0 +1,137 @@
+.reservationDetailsOfReserva,
+.tableTitle {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.tableTitle {
+  width: 1166px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.reservationDetailsOfReserva {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--support-grey-bg);
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-61xl) var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 499px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+}
+.title {
+  position: relative;
+  font-weight: 600;
+  margin: 0;
+  font-size: inherit;
+  line-height: 26px;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+.actionCell,
+.contentCell11,
+.table,
+.table1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contentCell11 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: var(--primary-green);
+}
+.actionCell,
+.table,
+.table1 {
+  max-width: 100%;
+}
+.actionCell {
+  height: 805px;
+  width: 434px;
+  display: none;
+  flex-direction: column;
+}
+.table,
+.table1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.table1 {
+  flex: 1;
+  background-color: var(--support-white);
+  border-bottom: 1px solid var(--support-grey-bg);
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.table {
+  align-self: stretch;
+  box-shadow: var(--table-shadow);
+  border-radius: var(--br-7xs);
+  font-size: var(--font-size-sm);
+  color: var(--support-white);
+  font-family: var(--font-montserrat);
+}
+.scrollIcon {
+  width: 120px;
+  height: 0;
+  position: relative;
+  display: none;
+}
+.tableContainer {
+  margin: 0px 80px !important;
+}
+/* --------------------------------------------------------------------------------- */
+.busDust,
+.busDust1 {
+  width: 128px;
+  object-fit: contain;
+}
+.busDust {
+  height: 499px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 3;
+}
+.busDust1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 780px;
+  z-index: 2;
+}
+.reservationDetailsOfReservaParent {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+}
+.reservationPoints {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1100px) {
+  .reservationDetailsOfReservaParent {
+    height: auto;
+    min-height: 879;
+  }
+}

@@ -1,0 +1,108 @@
+.aboutThisSite,
+.aboutContainer,
+.disclaimer,
+.privacyPolicy,
+.aboutContent,
+.disclaimerContent,
+.privacyPolicyContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.container{
+  background-color: var(--support-grey-bg);
+}
+.aboutThisSite {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+.aboutContainer {
+  padding: var(--padding-61xl) var(--padding-81xl) var(--padding-81xl);
+  gap: var(--gap-13xl);
+}
+.aboutThisSiteTitle {
+  font-family: var(--font-playfair-display);
+  font-size: var(--font-size-27xl);
+  font-weight: 600;
+  line-height: 61.32px;
+  text-align: center;
+  margin: 0;
+  color: var(--text-black);
+}
+.aboutContent {
+  gap: var(--gap-41xl);
+}
+.disclaimer,
+.privacyPolicy {
+  gap: var(--gap-base);
+}
+.disclaimerTitle,
+.privacyPolicyTitle {
+  margin: 0;
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+.disclaimerContent,
+.privacyPolicyContent {
+  gap: var(--gap-7xl);
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-16);
+  font-weight: 500;
+  line-height: 26px;
+}
+.content {
+  margin: 0;
+  text-align: center;
+  color: var(--color-gray);
+}
+.separatorLine {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    #000000 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+@media screen and (max-width: 1023px) {
+  .aboutContent {
+    gap: var(--gap-31xl);
+  }
+  .aboutContainer {
+    padding: var(--padding-46xl) var(--padding-13xl);
+  }
+  .aboutThisSiteTitle {
+    font-size: var(--font-size-19xl);
+    line-height: 52px;
+  }
+  .disclaimerTitle,
+  .privacyPolicyTitle {
+    font-size: var(--font-size-3xl);
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .aboutContent {
+    gap: var(--gap-21xl);
+  }
+  .aboutContainer {
+    padding: var(--padding-60) var(--padding-5xl);
+    gap: var(--gap-5xl);
+  }
+  .aboutThisSiteTitle {
+    font-size: var(--font-size-13xl);
+    line-height: 42px;
+  }
+  .disclaimerTitle,
+  .privacyPolicyTitle {
+    font-size: var(--font-size-xl);
+    line-height: 32px;
+  }
+}

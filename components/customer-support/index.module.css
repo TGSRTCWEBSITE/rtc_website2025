@@ -1,0 +1,141 @@
+.customerSupport {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 99;
+}
+.customerSupportMobileImg ,
+.customerSupportWebImg {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.customerSupportMobileImg {
+  display: none;
+}
+.customerSupportTexts,
+.emailPhone ,
+.texts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 100%;
+}
+.customerSupportTexts {
+  position: absolute;
+  top: 0px;
+  gap: var(--gap-13xl);
+  z-index: 2;
+  font-size: var(--font-size-27xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+  padding-left: var(--padding-73xl);
+  padding-top: var(--padding-81xl);
+}
+.texts {
+  gap: var(--gap-xs);
+}
+.customerSupportTitle,
+.needHelpWith {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-weight: 600;
+  mix-blend-mode: normal;
+}
+.customerSupportTitle {
+  font-size: var(--font-size-27xl);
+  line-height: 52px;
+  font-family: var(--font-playfair-display);
+}
+.needHelpWith {
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray-200);
+}
+.emailPhone {
+  gap: var(--gap-xs);
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  color: var(--text-black);
+  font-family: var(--font-montserrat);
+}
+.email ,
+.phone ,
+.contactNumbers{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+  color: var(--text-black);
+}
+.email,
+.phone {
+  gap: var(--gap-7xs);
+}
+.emailIcon ,
+.phoneIcon{
+  height: 24px;
+  width: 24px;
+}
+.emailAddress,
+.number{
+  color: var(--text-black);
+}
+@media screen and (max-width:1023px) {
+  .customerSupportTexts{
+    gap: var(--gap-5xl);
+    padding: var(--padding-17xl);
+  }
+  .customerSupportTitle {
+    font-size: var(--font-size-19xl);
+  }
+  .needHelpWith {
+    font-size: var(--font-size-xl);
+    line-height: 30px;
+  }
+  .emailPhone {
+    font-size: var(--font-size-lg);
+    gap: var(--gap-7xs);
+  }
+}
+@media screen and (max-width: 599px) {
+  .customerSupportWebImg {
+    display: none;
+  }
+  .customerSupportMobileImg {
+    display: block;
+  }
+  .customerSupportTexts {
+    gap: var(--gap-base);
+    padding: var(--padding-xl);
+  }
+  .customerSupportTitle {
+    font-size: var(--font-size-13xl);
+  }
+  .needHelpWith {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+  .emailPhone {
+    font-size: var(--font-size-sm);
+    gap: 0;
+  }
+  .emailIcon,
+  .phoneIcon {
+    width: 20px;
+    height: 20px;
+  }
+}

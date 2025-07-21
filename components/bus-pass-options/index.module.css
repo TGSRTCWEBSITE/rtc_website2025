@@ -1,0 +1,105 @@
+.busPassOptions1 {
+  margin: 0;
+  font-size: var(--font-size-27xl);
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+
+.animation {
+  position: sticky;
+  top: 0px;
+}
+
+.busPassOptionsWrapper {
+  width: 1158px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.loremIpsumDolor {
+  width: 577px;
+  height: 42px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  line-height: 21px;
+  font-family: var(--font-red-hat-display);
+  color: var(--text-grey-body-text);
+  white-space: pre-wrap;
+  text-align: center;
+  display: none;
+  max-width: 100%;
+}
+
+.busPassOptions,
+.cardsContainer {
+  display: flex;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+
+.cardsContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-montserrat);
+}
+
+.busPassOptions {
+  position: relative;
+  align-self: stretch;
+  background-color: var(--support-grey-bg);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-81xl) var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--text-black);
+  font-family: var(--font-playfair-display);
+}
+
+@media screen and (max-width: 1023px) {
+  .busPassOptions1 {
+    font-size: var(--font-size-13xl);
+  }
+
+  .busPassOptions {
+    padding-top:0;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+  }
+
+  .busPassOptions,
+  .cardsContainer {
+    gap: var(--gap-base);
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .busPassOptions1 {
+    font-size: var(--font-size-13xl);
+  }
+
+  .busPassOptions {
+    padding-top: 0;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .cardsContainer {
+    max-width: 1366px;
+    margin: 0px auto;
+  }
+}

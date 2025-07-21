@@ -1,0 +1,980 @@
+.typesOfCoaches {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-27xl);
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+  mix-blend-mode: normal;
+}
+.coachTypesHeading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.garudaPlusMulti {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+.theCorporationHas {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-montserrat);
+  color: var(--text-black);
+}
+.garudaPlusContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-playfair-display);
+}
+.guidingPrinciplesOf {
+  position: relative;
+  font-weight: 600;
+  mix-blend-mode: normal;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bulltetPointPlaceholder {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder1 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets1 {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder2 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets2 {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder3 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets3 {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder4 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets4 {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder5 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets5 {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder6 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets6 {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder7 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets7 {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder8 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets8 {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder9 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets9 {
+  margin: 0;
+  width: 1104px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder10 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets10 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint10 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder11 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets11 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint11 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder12 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets12 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint12 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder13 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets13 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint13 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder14 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets14 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint14 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder15 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets15 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint15 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder16 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets16 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint16 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder17 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets17 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint17 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder18 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets18 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint18 {
+  align-self: stretch;
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.bulltetPointPlaceholder19 {
+  height: 26px;
+  width: 6px;
+  position: relative;
+  min-height: 26px;
+  flex-shrink: 0;
+}
+.monthlySeasonTickets19 {
+  height: 28px;
+  width: 1104px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 103%;
+}
+.bulletPoint19,
+.bulletPointContainer,
+.bulletPoints {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bulletPoint19 {
+  height: 26px;
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.bulletPointContainer,
+.bulletPoints {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.bulletPoints {
+  font-size: var(--font-size-base);
+  color: var(--text-grey-body-text);
+}
+.bulletPointContainer {
+  color: var(--text-black);
+}
+.picturesIcon {
+  width: 99.6%;
+  height: 100%;
+  margin: 0 !important;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.busBhavan,
+.imagePlaceholder {
+  position: relative;
+  max-width: 100%;
+}
+.imagePlaceholder {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+}
+.busBhavan {
+  align-self: stretch;
+  width: 512px;
+  line-height: 26px;
+  display: none;
+  mix-blend-mode: normal;
+}
+.imageText {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.frameIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.amTo0800 {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.calendar {
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pickupAlpha {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.content1,
+.pickup {
+  display: flex;
+  justify-content: flex-start;
+}
+.pickup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.content1 {
+  width: 278px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.birlaMandir,
+.placesCovered {
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.placesCovered {
+  height: 26px;
+  font-weight: 600;
+  display: inline-block;
+}
+.birlaMandir {
+  align-self: stretch;
+}
+.birlaMandirWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.golkonda {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.golkondaWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.taramatiBaradari {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.taramatiBaradariWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.chowmahallaPalace {
+  height: 26px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.chowmahallaPalaceWrapper {
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-2xs);
+  white-space: nowrap;
+}
+.durgamCheruvuPark {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.durgamCheruvuParkWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.cableBridge {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.cableBridgeWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.lumbiniPark {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.chips,
+.lumbiniParkWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lumbiniParkWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.chips {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-7xs);
+}
+.packageTourWill {
+  align-self: stretch;
+  height: 104px;
+  position: relative;
+  line-height: 26px;
+  color: var(--text-grey-body-text);
+  display: inline-block;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.chipsParent,
+.content2,
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.chipsParent,
+.content2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.contents {
+  width: 480px;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.applyNow {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.button {
+  width: 123px;
+  height: 36px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--support-white);
+}
+.contentsParent {
+  width: 480px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  min-height: 428px;
+  max-width: 100%;
+  text-align: left;
+  color: var(--text-black);
+}
+.bulletPointChange{
+  padding-top: 0px !important;
+  padding-left: var(--padding-lg);
+  margin: 0;
+}
+.coachTypesHeadingParent,
+.garudaPlusSection,
+.imageCards {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.imageCards {
+  box-shadow: var(--card);
+  border-radius: var(--br-base);
+  background-color: var(--support-white);
+  flex-direction: row;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: center;
+  color: var(--text-grey-body-text);
+}
+.coachTypesHeadingParent,
+.garudaPlusSection {
+  flex-direction: column;
+}
+.garudaPlusSection {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  padding: var(--padding-21xl);
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-sm);
+  color: var(--primary-red);
+  font-family: var(--font-montserrat);
+  margin-bottom: 80px;
+}
+
+.coachTypesHeadingParent {
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--text-black);
+  font-family: var(--font-playfair-display);
+}
+
+@media screen and (max-width: 1023px) {
+  .typesOfCoaches {
+    font-size: var(--font-size-18xl);
+  }
+  .garudaPlusSection,
+  .imageCards {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    margin-bottom: 40px;
+  }
+  .garudaPlusSection {
+    gap: var(--gap-13xl);
+  }
+  .coachTypesHeadingParent {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 599px) {
+  .typesOfCoaches {
+    font-size: var(--font-size-9xl);
+  }
+  .garudaPlusMulti {
+    font-size: var(--font-size-5xl);
+  }
+  .imageCards{
+    padding: var( --padding-xs);
+    margin-bottom: 0px;
+  }
+  .garudaPlusSection{
+    padding: var(--padding-base);
+    margin-top: 4px;  
+    margin-bottom: 20px;
+  }
+}

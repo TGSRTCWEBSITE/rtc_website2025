@@ -1,0 +1,712 @@
+.otherCityBuses {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+.theFollowingFacilities {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-montserrat);
+  color: var(--text-black);
+}
+.otherCityBusesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.deluxe1 {
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 58px;
+}
+.picturesIcon {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.busBhavan,
+.imagePlaceholder {
+  position: relative;
+  max-width: 100%;
+}
+.imagePlaceholder {
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+}
+
+.imageText {
+  flex: 1;
+  overflow: hidden;
+  max-width: 100%;
+}
+.frameIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.amTo0800 {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.calendar {
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pickupAlpha {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.content1,
+.pickup {
+  display: flex;
+  justify-content: flex-start;
+}
+.pickup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.content1 {
+  width: 278px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.birlaMandir,
+.placesCovered {
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.placesCovered {
+  height: 26px;
+  font-weight: 600;
+  display: inline-block;
+}
+.birlaMandir {
+  align-self: stretch;
+}
+.birlaMandirWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.golkonda {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.golkondaWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.taramatiBaradari {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.taramatiBaradariWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.chowmahallaPalace {
+  height: 26px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.chowmahallaPalaceWrapper {
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-2xs);
+  white-space: nowrap;
+}
+.durgamCheruvuPark {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.durgamCheruvuParkWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.cableBridge {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.cableBridgeWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.lumbiniPark {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.chips,
+.lumbiniParkWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lumbiniParkWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.chips {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-7xs);
+}
+.packageTourWill {
+  align-self: stretch;
+  height: 104px;
+  position: relative;
+  line-height: 26px;
+  color: var(--text-grey-body-text);
+  display: inline-block;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.chipsParent,
+.content2,
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.chipsParent,
+.content2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.contents {
+  width: 480px;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.applyNow {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.button {
+  width: 123px;
+  height: 36px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--support-white);
+}
+.contentsParent,
+.deluxe,
+.imageCards {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contentsParent {
+  width: 480px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+  min-height: 428px;
+  text-align: left;
+  color: var(--text-black);
+}
+.deluxe,
+.imageCards {
+  display: flex;
+  align-items: flex-start;
+}
+.imageCards {
+  align-self: stretch;
+  box-shadow: var(--card);
+  border-radius: var(--br-base);
+  background-color: var(--support-white);
+  flex-direction: row;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--text-grey-body-text);
+}
+.deluxe {
+  width: 48%;
+  margin: 0 !important;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.picturesIcon1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.picturesIcon2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameIcon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.amTo08002 {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.calendar2 {
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameIcon5 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pickupAlpha2 {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.content12,
+.pickup2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.pickup2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.content12 {
+  width: 278px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.birlaMandir2,
+.placesCovered2 {
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.placesCovered2 {
+  height: 26px;
+  font-weight: 600;
+  display: inline-block;
+}
+.birlaMandir2 {
+  align-self: stretch;
+}
+.birlaMandirFrame {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.golkonda2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.golkondaFrame {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.taramatiBaradari2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.taramatiBaradariFrame {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.chowmahallaPalace2 {
+  height: 26px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.chowmahallaPalaceFrame {
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-2xs);
+  white-space: nowrap;
+}
+.durgamCheruvuPark2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.durgamCheruvuParkFrame {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.cableBridge2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.cableBridgeFrame {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.lumbiniPark2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.chips2,
+.lumbiniParkFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lumbiniParkFrame {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.chips2 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-7xs);
+}
+.packageTourWill2 {
+  align-self: stretch;
+  height: 104px;
+  position: relative;
+  line-height: 26px;
+  color: var(--text-grey-body-text);
+  display: inline-block;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.chipsContainer,
+.content22,
+.contents2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.chipsContainer,
+.content22 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.contents2 {
+  width: 480px;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.applyNow2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.button2 {
+  width: 123px;
+  height: 36px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--support-white);
+}
+.contentsContainer {
+  width: 480px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  min-height: 428px;
+  max-width: 100%;
+  text-align: left;
+  color: var(--text-black);
+}
+.ellipseDiv,
+.picturesIcon3 {
+  position: absolute;
+  margin: 0 !important;
+}
+.picturesIcon3 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.busBhavan3,
+.imagePlaceholder3 {
+  position: relative;
+  max-width: 100%;
+}
+
+.otherBusesImages,
+.otherCityServicesSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.otherBusesImages {
+  flex-direction: row;
+  align-self: stretch;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 24px 40px;
+  font-size: var(--font-size-base);
+  color: var(--text-black);
+  font-family: var(--font-montserrat);
+}
+.otherCityServicesSection {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-19xl) var(--padding-20xl);
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+  margin-bottom: 100px;
+}
+@media screen and (min-width:1024px) and (max-width:1300px){
+  .otherBusesImages{
+    column-gap: var(--gap-11x);
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .otherCityServicesSection {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+    margin-bottom: 80px;
+  }
+  .deluxe{
+    width: unset;
+
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .otherCityBuses {
+    font-size: var(--font-size-5xl);
+  }
+  .otherCityServicesSection {
+   padding: var(--padding-base);
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .imageCards{
+    padding: var( --padding-5xs);
+  }
+}

@@ -1,0 +1,287 @@
+.busframeContainer {
+  display: none;
+}
+.bookYourServices {
+  text-align: center;
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.bookYourServicesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.telanganaStateRoad {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.02em;
+  line-height: 26px;
+  font-family: var(--font-montserrat);
+  color: var(--text-grey-body-text);
+  text-align: center;
+}
+.frameParent {
+  width: 894px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.frameChild {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 42px;
+  height: 49px;
+}
+.frameGroup,
+.frameItem {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+.frameItem {
+  bottom: 0;
+  left: 49px;
+  max-height: 100%;
+  width: 93px;
+}
+.frameGroup {
+  left: 0;
+  width: 100%;
+}
+.infographicsInner {
+  margin-left: -1px;
+  width: 142px;
+  height: 56px;
+  position: relative;
+}
+.infographicsChild {
+  margin-left: -3px;
+  width: 146px;
+  height: 7px;
+  position: relative;
+  filter: blur(14px);
+  border-radius: 50%;
+  background-color: var(--color-gray-200);
+}
+.infographics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg-5) 0;
+}
+.infographicContainer,
+.infographicContainerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infographicContainerWrapper {
+  align-self: stretch;
+  justify-content: center;
+}
+.busPasses {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+.tgsrtcIntroducedCargo {
+  display: block;
+}
+.loremIpsumDolorContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 26px;
+  color: var(--text-grey-body-text);
+  text-align: center;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.texts {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.lineSeparatorIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: clip;
+  max-height: unset;
+}
+.lineSeparater {
+  align-self: stretch;
+  height: 0;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.applyNow {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: center;
+}
+.button1 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  white-space: nowrap;
+}
+.applyNow1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 83px;
+}
+.button2,
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button2 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  white-space: nowrap;
+}
+.buttonsContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  gap: var(--gap-base);
+}
+.bodyContainer,
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bodyContainer {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.cards {
+  width: 427px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 463px;
+  box-shadow: var(--table-shadow);
+  border-radius: var(--br-base);
+  background-color: var(--support-white);
+  align-items: flex-start;
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+}
+.bookYourServiceCards,
+.homeBookYourServices {
+  display: flex;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.bookYourServiceCards {
+  width: 894px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-montserrat);
+}
+.homeBookYourServices {
+  align-self: stretch;
+  background-color: var(--support-grey-bg);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-81xl) var(--padding-33xl);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--text-black);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1275px) {
+  .homeBookYourServices {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .bookYourServices {
+    font-size: var(--font-size-13xl);
+  }
+  .homeBookYourServices {
+    gap: var(--gap-base);
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .busframe {
+    width: 100%;
+  }
+  .bookYourServicesWrapper {
+    padding: 0;
+  }
+  .bookYourServices {
+    font-size: var(--font-size-13xl);
+    padding: 0;
+  }
+  .busPasses {
+    font-size: var(--font-size-lgi);
+  }
+  .homeBookYourServices {
+  padding: 0 var(--padding-xl) var(--padding-41xl) var(--padding-xl);
+  }
+}

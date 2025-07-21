@@ -1,0 +1,104 @@
+.infrastructureText {
+  font-family: var(--font-playfair-display);
+  font-size: var(  --font-size-27xl);
+  font-weight: 600;
+  line-height: 61.32px;
+  text-align: center;
+  margin: 0px;
+}
+
+.infrastructureOfTGSRTC {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin: 40px 0px 24px 0px;
+}
+.cardHeading {
+  font-family: var(--font-playfair-display);
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  line-height: 31.99px;
+  text-align: left;
+  margin: 0px;
+  color: var(--primary-red);
+  padding: var(--padding-5xl) 0px 0px 0px;
+}
+.card {
+  height: 457px;
+  width: 512px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  padding: var(--padding-5xl);
+  border-radius: 16px;
+}
+.cardImage {
+  height: 401px;
+  width: 512px;
+}
+.cards {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.infrastructureContainer {
+  padding: 0px var(--padding-81xl) var(--padding-81xl) var(--padding-81xl);
+  margin: 0 auto;
+  max-width: 1166px;
+}
+@media screen and (min-width: 1024px) and (max-width: 1359px) {
+  .infrastructureOfTGSRTC {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .cards {
+    justify-content: center;
+  }
+  .card {
+    width: 368px;
+    height: 351px;
+    padding: var(--padding-xs);
+  }
+  .cardImage {
+    width: 368px;
+    height: 294px;
+  }
+  .cardHeading {
+    font-size: var(--font-size-16);
+    padding: var(--padding-xs) 0px 0px 0px;
+  }
+  .infrastructureContainer {
+    padding: var(--padding-41xl) var(--padding-5xl);
+
+  }
+}
+@media screen and (max-width: 599px) {
+  .infrastructureContainer {
+    padding: var(--padding-41xl) var(--padding-xl);
+  }
+  .infrastructureText{
+    font-size: var(--font-size-13xl);
+  }
+  .cards {
+    justify-content: center;
+  }
+  .card {
+    width: 288px;
+    height: 236px;
+    padding: var(--padding-xs);
+  }
+  .cardImage {
+    width: 288px;
+    height: 182px;
+  }
+  .cardHeading {
+    font-size: var(--font-size-16);
+    margin: 0px;
+    padding-top: var(--padding-xs);
+    line-height: 21px;
+  }
+}

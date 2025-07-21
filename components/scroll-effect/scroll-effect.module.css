@@ -1,0 +1,28 @@
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fixedIconContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 998; /* hides the icon when the hamburger is opened. */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
+
+}
+
+.fixedIcon {
+  cursor: pointer;
+  animation: blink 1s infinite;
+}

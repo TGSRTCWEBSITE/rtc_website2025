@@ -1,0 +1,77 @@
+.rtiAct {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--support-white);
+  font-family: var(--font-montserrat);
+  background-color: var(--support-grey-bg);
+}
+.rtiActContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  color: var(--text-black);
+  font-family: var(--font-playfair-display);
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-81xl) var(--padding-81xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  z-index: 1;
+  font-size: var(--font-size-27xl);
+}
+.rightToInformation {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  mix-blend-mode: normal;
+  max-width: 100%;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  text-align: center;
+}
+.rtiActContent {
+  width: 1166px;
+  align-items: flex-start;
+  margin: 0;
+  max-width: 100%;
+}
+.rtiList {
+  margin: 0;
+  padding: 0;
+}
+.ritQuestion{
+  color: var(--text-black);
+  line-height: 30px !important;
+}
+@media screen and (max-width: 1023px) {
+  .rtiActContainer {
+    padding:0px var(--padding-17xl) var(--padding-23xl);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .rightToInformation {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .rtiActContainer {
+    padding: 0px var(--padding-xl) var(--padding-41xl);
+  }
+}
+@media screen and (max-width: 599px) {
+  .rightToInformation {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+}

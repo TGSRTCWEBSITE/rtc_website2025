@@ -1,0 +1,356 @@
+.tableContainer {
+  width: 100%;
+}
+
+.bgIcon,
+.bgIconMobile {
+  width: 100%;
+  height: auto;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.bgIconMobile {
+  display: none;
+}
+
+.logisticContactsHero {
+  overflow: hidden;
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-53xl);
+  color: var(--support-white);
+  font-family: var(--font-playfair-display);
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 100;
+  min-height: 380px;
+}
+/* fixed horizontal scrolling issue */
+.contactUs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.tableSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-81xl) var(--padding-81xl) var(--padding-81xl);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+  max-width: 1166px;
+  margin: 0 auto;
+}
+
+/* Stylings for the accordain section  */
+
+.otherServices {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: var(--padding-61xl) var(--padding-81xl) var(--padding-81xl);
+  gap: var(--gap-13xl);
+  margin: 0 auto;
+  max-width: 1166px;
+}
+
+.title {
+  margin: 0;
+  position: relative;
+  font-weight: 600;
+  font-size: var(--font-size-5xl);
+  line-height: 26px;
+  font-family: var(--font-playfair-display);
+  display: inline-block;
+  mix-blend-mode: normal;
+  max-width: 100%;
+  text-align: left;
+}
+
+.tsrtcLogoIcon {
+  position: relative;
+  object-fit: contain;
+  height: 70.4px;
+  width: 70.4px;
+}
+
+.busDust {
+  width: 128px;
+  height: 780px;
+  display: none;
+  z-index: 4;
+}
+
+.rowClass:hover {
+  background-color: var(--color-whitesmoke);
+}
+
+.icon {
+  width: 289.1px;
+  height: 24.4px;
+  position: relative;
+}
+
+.otherServiceTitle {
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+  font-size: var(--font-size-5xl);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.telanganaStateRoadTransport {
+  align-self: stretch;
+  height: 11.3px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.containerClassName {
+  background-color: var(--support-white);
+  box-shadow: var(--card-shadow);
+}
+
+.tsrtcLogo,
+.tsrtcLogo1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-3xs-4);
+  max-width: 100%;
+}
+
+.tsrtcLogo1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs-9);
+}
+
+.tsrtcLogo {
+  width: 504px;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+
+.reservations {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 26px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 45px;
+}
+
+.bgIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.logisticsContentWrapper {
+  display: flex;
+  flex-direction: column;
+  top: 7.3vw;
+  left: 7.3vw;
+  gap: var(--gap-3xs);
+  max-width: 599px;
+  position: absolute;
+}
+
+.heroTitleStyles {
+  margin: 0;
+  font-size: var(--font-size-53xl);
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+  mix-blend-mode: normal;
+  line-height: 82px;
+}
+
+.heroSubTitleStyles {
+  position: relative;
+  margin: 0;
+  mix-blend-mode: normal;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+  max-width: 100%;
+  z-index: 1;
+}
+
+.accordion {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width:1220px) {
+  .containerClassName {
+    width: calc(100% - 302px) !important;
+  }
+
+  .extraDropdown {
+    width: calc(100% - 200px) !important;
+  }
+}
+
+@media screen and (min-width: 1220px) and (max-width:1365px) {
+  .containerClassName {
+    width: calc(100% - 204px) !important;
+  }
+
+  .extraDropdown {
+    width: calc(100% - 100px) !important;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+  .containerClassName {
+    width: calc(100% - 186px) !important;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .tourismContentWrapper {
+    top: 12vw;
+    left: 7vw;
+  }
+
+  .heroTitleStyles {
+    font-size: var(--font-size-39xl);
+    line-height: 68px;
+  }
+
+  .containerClassName {
+    width: calc(100% - 200px) !important;
+  }
+
+  .heroSubTitleStyles {
+    font-size: var(--font-size-lgi);
+    line-height: 28px;
+  }
+
+  .otherServices {
+    padding: var(--padding-61xl) var(--padding-17xl);
+  }
+
+  .tableSection {
+    padding: var(--padding-5xl) var(--padding-21xl) var(--padding-41xl) var(--padding-21xl);
+  }
+
+  .extraDropdown {
+    width: calc(100% - 80px) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .containerClassName {
+    width: calc(100% - 150px) !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .logisticsContentWrapper {
+    top: 270.57px;
+    left: 23px;
+    gap: var(--gap-base);
+    max-width: 400px;
+    position: absolute;
+  }
+
+  .heroTitleStyles {
+    font-size: var(--font-size-42xl);
+    line-height: 56px;
+  }
+
+  .bgIconMobile {
+    display: block;
+  }
+
+  .heroSubTitleStyles {
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+
+  .title {
+    font-size: var(--font-size-base);
+  }
+
+  .tableSection {
+    padding: var(--padding-5xl) var(--padding-5xl) var(--padding-41xl) var(--padding-5xl);
+  }
+}
+
+@media (max-width: 599px) {
+  .otherServices {
+    padding: var(--padding-41xl) var(--padding-xl);
+  }
+
+  .extraDropdown {
+    width: calc(100% - 40px) !important;
+  }
+
+  .containerClassName {
+    width: calc(100% - 80px) !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-xl);
+    line-height: normal;
+  }
+
+  .logisticsContentWrapper {
+    top: 210.57px;
+    left: 23px;
+    gap: var(--gap-base);
+    max-width: 237px;
+    position: absolute;
+  }
+
+  .heroTitleStyles {
+    font-size: var(--font-size-42xl);
+    line-height: 56px;
+  }
+
+  .heroSubTitleStyles {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-height: 52px;
+  }
+
+  .logisticContactsHero {
+    box-sizing: border-box;
+  }
+
+  .tableSection {
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-41xl) var(--padding-xl);
+    gap: var(--gap-base);
+    text-align: left;
+    width: 88.9%;
+  }
+}

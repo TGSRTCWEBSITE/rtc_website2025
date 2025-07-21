@@ -1,0 +1,44 @@
+.frameParent,
+.typesOfServicesParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 100%;
+}
+.typesOfServicesParent {
+  width: 100%;
+  gap: var(--gap-5xs);
+}
+.title {
+  margin: 0;
+  font-size: var(--font-size-3xl);
+  line-height: normal;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--text-black);
+  mix-blend-mode: normal;
+}
+.content {
+  margin: 0;
+  align-self: stretch;
+  font-size: var(--font-size-sm);
+  line-height: 26px;
+  font-weight: 400;
+  font-family: var(--font-montserrat);
+  color: var(--text-grey-body-text);
+}
+.table {
+  margin-top: 8px;
+}
+@media screen and (max-width: 1023px) {
+  .title {
+    font-size: var(--font-size-lgi);
+  }
+}
+@media screen and (max-width: 599px) {
+  .title {
+    font-size: var(--font-size-base);
+  }
+}

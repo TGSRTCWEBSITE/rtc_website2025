@@ -1,0 +1,115 @@
+.maskGroupIcon {
+  width: 100%;
+  height: 730px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -28px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.bookingService,
+.tgsrtcOnlineBus {
+  margin: 0;
+}
+.bookYourTickets,
+.tgsrtcOnlineBusContainer {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  mix-blend-mode: normal;
+  max-width: 100%;
+  z-index: 1;
+}
+.tgsrtcOnlineBusContainer {
+  font-size: inherit;
+  line-height: 82px;
+  font-weight: 600;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+.bookYourTickets {
+  width: 599px;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+}
+.reservationHeroLanding {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-81xl) var(--padding-xl) var(--padding-350xl)
+    var(--padding-81xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-53xl);
+  color: var(--support-white);
+  font-family: var(--font-playfair-display);
+}
+.applyRenew{
+  display: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+@media screen and (max-width: 1100px) {
+  .reservationHeroLanding {
+    padding-left: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .maskGroupIcon {
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tgsrtcOnlineBusContainer {
+    font-size: var(--font-size-39xl);
+    line-height: 66px;
+  }
+  .reservationHeroLanding {
+    padding-left: var(--padding-6xl);
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-221xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 599px) {
+  .tgsrtcOnlineBusContainer {
+    font-size: var(--font-size-39xl);
+    line-height: 66px;
+    max-width: 237px;
+    width: 100%;
+  }
+.applyRenew{
+  display: block;
+}
+  .reservationHeroLanding {
+    padding-left: var(--padding-6xl);
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-221xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tgsrtcOnlineBusContainer {
+    font-size: 42px;
+    line-height: 55.99px;
+    max-width: 230px;
+  }
+  .bookYourTickets {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

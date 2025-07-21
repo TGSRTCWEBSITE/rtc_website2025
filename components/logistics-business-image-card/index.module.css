@@ -1,0 +1,328 @@
+.picturesIcon {
+  width: 100%;
+  height: auto;
+  margin: 0 !important;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.busBhavan,
+.imagePlaceholder {
+  position: relative;
+  max-width: 100%;
+}
+.imagePlaceholder {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.busBhavan {
+  align-self: stretch;
+  width: 512px;
+  line-height: 26px;
+  display: none;
+  mix-blend-mode: normal;
+}
+.imageText {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.frameIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.amTo0800 {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.calendar {
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pickupAlpha {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.content1,
+.pickup {
+  display: flex;
+  justify-content: flex-start;
+}
+.pickup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.content1 {
+  width: 278px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.birlaMandir,
+.placesCovered {
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.placesCovered {
+  height: 26px;
+  font-weight: 600;
+  display: inline-block;
+}
+.birlaMandir {
+  align-self: stretch;
+}
+.birlaMandirWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.golkonda {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.golkondaWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.taramatiBaradari {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.taramatiBaradariWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.chowmahallaPalace {
+  height: 26px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  mix-blend-mode: normal;
+}
+.chowmahallaPalaceWrapper {
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-2xs);
+  white-space: nowrap;
+}
+.durgamCheruvuPark {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.durgamCheruvuParkWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.cableBridge {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.cableBridgeWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.lumbiniPark {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  mix-blend-mode: normal;
+}
+.chips,
+.lumbiniParkWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lumbiniParkWrapper {
+  height: 30px;
+  border-radius: var(--br-80xl);
+  background-color: var(--color-mintcream-300);
+  padding: var(--padding-11xs) var(--padding-xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.chips {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-7xs);
+}
+.packageTourWill {
+  align-self: stretch;
+  height: 104px;
+  position: relative;
+  line-height: 26px;
+  color: var(--text-grey-body-text);
+  display: inline-block;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.chipsParent,
+.content2,
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.chipsParent,
+.content2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.contents {
+  width: 480px;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.applyNow {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.button {
+  width: 123px;
+  height: 36px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--support-white);
+}
+.contentsParent,
+.imageCards {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contentsParent {
+  width: 480px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+  min-height: 428px;
+  text-align: left;
+  color: var(--text-black);
+}
+.imageCards {
+  align-self: stretch;
+  box-shadow: var(--card);
+  border-radius: var(--br-base);
+  background-color: var(--support-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--text-grey-body-text);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 599px) {
+  .imageCards {
+    padding: var(--padding-xs);
+    box-sizing: border-box;
+  }
+  .imagePlaceholder{
+    gap: unset;
+  }
+}

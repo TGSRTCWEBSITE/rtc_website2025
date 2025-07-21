@@ -1,0 +1,133 @@
+.internationalWomensDay {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  mix-blend-mode: normal;
+}
+
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 26px;
+  color: var(--text-black);
+  white-space: pre-wrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.texts {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  height: 115px;
+}
+
+.lineSeparatorIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: clip;
+  max-height: unset;
+}
+
+.lineSeparater {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.applyNow,
+.viewDetails {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 90px;
+  cursor: pointer;
+}
+
+.applyNow {
+  min-width: 79px;
+ color: var(--support-white);
+}
+
+.button2,
+.buttonHolder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button2 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  justify-content: flex-end;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  white-space: nowrap;
+  text-align: center;
+  color: var(--support-white);
+  cursor: pointer;
+}
+
+.buttonHolder {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--primary-green);
+}
+
+.cardTextHolder,
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+
+.cardTextHolder {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  width: 364px;
+  height: 247px;
+  box-shadow: var(--card);
+  border-radius: var(--br-base);
+  background: linear-gradient(200.37deg, #e3f7ff, #fff);
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+
+@media screen and (max-width: 599px) {
+  .internationalWomensDay {
+    font-size: var(--font-size-lgi);
+  }
+
+  .cards {
+    width: 312px;
+    height: 242px;
+  }
+
+  .buttonHolder {
+    flex-wrap: wrap;
+  }
+}

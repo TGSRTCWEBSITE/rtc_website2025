@@ -1,0 +1,268 @@
+.availability {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.weAreAvailableForYouConta {
+  width: 1104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  margin-left: 15px;
+  max-width: 100%;
+}
+.contactTexts ,
+.support ,
+.email{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactTexts{
+  flex-direction: column;
+  align-self: stretch;
+  gap: var(--gap-13xl);
+}
+.weAreAvailable {
+  margin: 0 ;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  mix-blend-mode: normal;
+  max-width: 100%;
+  text-align: center;
+}
+.support{
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-5xl);
+  color: var(--text-black);
+  font-family: var(--font-red-hat-display);
+}
+.phoneContainer ,
+.phone1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.phoneContainer {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-11xl);
+}
+.links{
+  color: var(--text-black);
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.lineIcon {
+  height: 39.5px;
+  border: 2px;
+  position: relative;
+}
+.phone1 {
+  flex: 1;
+  gap: var(--gap-5xs);
+  min-width:336px;
+  font-family: var(--font-montserrat);
+}
+.email {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.icons ,
+.icons1 ,
+.icons2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.forTgsrtcEmployee ,
+.nonTgsrtcEmployee {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  font-weight: 500;
+}
+.supporttgsrtchospitalcom {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.cargoButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cargoButton {
+  flex-direction: column;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-mid);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);  
+  border-radius: var(--br-381xl);
+  color: var(--support-white);
+  flex-direction: row;
+  white-space: nowrap;
+  justify-content: center;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 100px;
+}
+.applyNow {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: center;
+  text-transform: capitalize !important;
+  line-height: 17px !important;
+}
+.contactImage,
+.hospitalContact {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.hospitalContact {
+  background-color: var(--support-white);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-81xl) 0 0;
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+}
+.contactImage {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.contactImageWeb,
+.contactImageMobile {
+  width: 100%;
+  height: 100%;
+}
+.contactImageMobile{
+  display: none;
+}
+@media screen and (max-width: 1100px) {
+  .hospitalContact {
+    padding-top: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+  .lineIcon{
+    display: none;
+  }
+  .phoneContainer {
+    flex-direction: column;
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 924px) {
+  .phone , 
+  .phone1 {
+    justify-content: center;
+  }
+  .contactImageWeb{
+    display: none;
+  }
+  .cargoButton {
+    padding: unset;
+  }
+  .contactImageMobile{
+    display: block;
+  }
+}
+@media screen and (max-width: 750px) {
+  .weAreAvailableForYouConta {
+    margin-left: 0px;
+    gap: var(--gap-13xl);
+  }
+  .contactTexts{
+    padding: 0 var(--padding-xl);
+    gap: var(--gap-5xl);
+  }
+  .weAreAvailable {
+    padding: 0 var(--padding-mini);
+    font-size: var(--font-size-18xl);
+  }
+  .phoneContainer {
+    gap: 0;
+  }
+  .cargoButton {
+    margin-top: 24px;
+  }
+  .contactImage {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .button {
+    width: 190px ;
+  }
+}
+@media screen and (max-width: 599px) {
+  .hospitalContact {
+    padding-top: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .weAreAvailable {
+    font-size: var(--font-size-13xl);
+  }
+  .support{
+    gap: 0;
+  } 
+  .icons,.icons1,.icons2{
+    width: 20px;
+    height: 20px;
+  }
+  .phone1 {
+    min-width: 100%;
+  }
+  .forTgsrtcEmployee,
+  .nonTgsrtcEmployee {
+    font-size: var(--font-size-xs);
+    line-height: 32px;
+  }
+  .supporttgsrtchospitalcom {
+    font-size: var(--font-size-xs);
+    line-height: 32px;
+  }
+}

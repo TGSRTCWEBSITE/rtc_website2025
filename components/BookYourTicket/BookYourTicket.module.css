@@ -1,0 +1,305 @@
+.bookYourTicket1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+
+.bookYourTicket {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-61xl) 0 var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--support-white);
+  font-family: var(--font-playfair-display);
+  background-image: url("/ticket-booking-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 100;
+}
+
+.bookYourTicketWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+
+.loremIpsumDolor {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+.texts,
+.textsWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.texts {
+  width: 577px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  z-index: 2;
+}
+
+.textsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+/* making this display none based on our usage the code is available */
+.interestedRouteContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  align-self: stretch;
+  gap: var(--gap-xs);
+  display: none;
+}
+
+.interestedRouteTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+
+.routesYouMay {
+  width: 262px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  mix-blend-mode: normal;
+}
+.lineIconMobile,
+.lineIcon {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-7xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 582px;
+  height: 1px;
+  background-color: var(--support-white);
+}
+.lineIconMobile {
+  display: none;
+}
+.routeChipsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+
+.routeChips {
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  border-radius: var(--br-7xs);
+  background-color: var(--text-black);
+  display: flex;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-xs);
+}
+
+.city {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+}
+
+.icons3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.button1 {
+  height: 36px;
+  cursor: pointer;
+  border: 1.5px solid var(--primary-green);
+  padding: var(--padding-6xs) var(--padding-3xl) var(--padding-5xs);
+  background-color: var(--support-white);
+  width: 159px;
+  border-radius: var(--br-381xl);
+  box-sizing: border-box;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.button1:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1.5px solid var(--color-mediumseagreen-200);
+  box-sizing: border-box;
+}
+
+.applyNow1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--primary-green);
+  text-align: center;
+  display: inline-block;
+  min-width: 111px;
+}
+
+.bookYourTicketFormContaine {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  max-width: 1171px;
+  gap: var(--gap-21xl);
+  z-index: 1;
+}
+
+.bookYourTicketFormContaineWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-31xl) 0 var(--padding-31xl);
+}
+
+.bookYourTicketForm {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  border-radius: 0 var(--br-base) var(--br-base) var(--br-base);
+  background-color: var(--support-white);
+  border-top: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-xs);
+  gap: var(--gap-xs);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 1275px) {
+  .routeChipsContainer {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .routeChips {
+    flex-wrap: wrap;
+  }
+  .bookYourTicket {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bookYourTicketFormContaine {
+    width: 100%;
+    gap: var(--gap-xl);
+  }
+  .bookYourTicket1 {
+    font-size: var(--font-size-18xl);
+  }
+  .bookYourTicketFormContaineWrapper {
+    padding: 0 var(--padding-21xl) 0 var(--padding-21xl);
+  }
+  .formContainer {
+    flex-wrap: wrap;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .lineIconMobile,
+  .lineIcon {
+    min-width: 100%;
+  }
+  .bookYourTicket {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-20xl);
+  }
+}
+@media screen and (max-width: 480px) {
+  .routeChipsContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .routeChips {
+    width: 70%;
+    justify-content: center;
+  }
+  .city {
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-xs);
+  }
+  .lineIconMobile {
+    display: block;
+  }
+  .interestedRouteTitle {
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: unset;
+  }
+  .lineIcon,
+  .lineIconMobile {
+    width: 100%;
+    flex: unset;
+    min-width: unset;
+    max-width: unset;
+  }
+  .routesYouMay {
+    min-width: 197px;
+    font-size: var(--font-size-xs);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bookYourTicketForm {
+    padding: var(--padding-base);
+  }
+  .bookYourTicket1 {
+    font-size: var(--font-size-9xl);
+  }
+  .bookYourTicketFormContaineWrapper {
+    padding: 0 var(--padding-xl) 0 var(--padding-xl);
+  }
+}

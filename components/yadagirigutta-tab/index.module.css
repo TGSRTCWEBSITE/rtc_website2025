@@ -1,0 +1,30 @@
+.tableHeading {
+  font-family: var(--font-playfair-display);
+  font-size: var( --font-size-5xl);
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  margin: 0px;
+  color: var(--primary-red);
+}
+.table {
+  margin: 0px;
+  margin-top: 16px;
+  width: 100%;
+}
+.container{
+  width: 100%;
+  padding-top: var( --padding-21xl);
+}
+.lowerContaiuner{
+  margin-top:100px
+}
+@media screen and (max-width: 1023px) {
+.container{
+  width: 100%;
+  padding-top: var(--padding-5xl);
+}
+.tableHeading{
+  font-size: var(--font-size-xl);
+}
+}

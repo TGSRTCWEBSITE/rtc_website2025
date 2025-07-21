@@ -1,0 +1,237 @@
+.busPassStudentPasses {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.contentWrapper,
+.busPassesHeroStudentPasses {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.contentWrapper {
+  flex-direction: column;
+  font-size: var(--font-size-5xl);
+  position: absolute;
+  top: 21.37vw;
+  left: 10.54vw;
+}
+
+.busPassesHeroStudentPasses {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-53xl);
+  color: var(--support-white);
+  font-family: var(--font-playfair-display);
+  z-index: 100;
+  min-height: 370px;
+}
+
+.bgIcon,
+.bgIconmobile {
+  width: 100%;
+  height: auto;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.applyRenew,
+.studentPasses {
+  margin: 0;
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  mix-blend-mode: normal;
+}
+
+.studentPasses {
+  font-size: var(--font-size-53xl);
+  line-height: 92px;
+  font-weight: 600;
+}
+
+.applyRenew {
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 500;
+  margin-top: 10px;
+  font-family: var(--font-montserrat);
+}
+
+.busPassStudentPasses1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--support-grey-bg);
+  padding: var(--padding-61xl) var(--padding-81xl) var(--padding-81xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--text-black);
+  font-family: var(--font-montserrat);
+  margin: 0 auto;
+}
+
+.tableContainer {
+  margin: 0 auto;
+  max-width: 1166px;
+  width: 100%;
+}
+
+.knowMoreAboutStudentPassesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+}
+
+.eachAccordian {
+  width: 100%;
+}
+
+.knowMoreAbout {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+
+.studentConcessionalRoutePas {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+
+@media screen and (min-width: 1366px) {
+  .eachAccordian {
+    max-width: 1366px;
+    margin: auto;
+  }
+
+  .knowMoreAboutStudentPassesWrapper {
+    max-width: 1366px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .busPassStudentPasses1 {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .busPassStudentPasses1 {
+    padding-top: 0;
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+
+  .linksContainer,
+  .logo {
+    flex: 1;
+  }
+
+  .footerSection,
+  .recognitionAndSocialMediaC {
+    flex-wrap: wrap;
+  }
+
+  .knowMoreAbout {
+    font-size: var(--font-size-xl);
+  }
+
+  .contentWrapper {
+    max-width: 270px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .studentPasses {
+    font-size: var(--font-size-42xl);
+    line-height: 74px;
+  }
+
+  .busPassesHeroStudentPasses {
+    box-sizing: border-box;
+  }
+
+  .contentWrapper {
+    top: 58.6vw;
+    left: 6.3vw;
+  }
+
+  .applyRenew {
+    font-size: var(--font-size-16);
+    line-height: 26px;
+    max-width: 320px;
+    font-weight: 500;
+    margin-top: 16px;
+  }
+
+  .knowMoreAbout {
+    font-size: var(--font-size-xl);
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .contentWrapper {
+    max-width: 237px;
+  }
+
+  .studentPasses {
+    font-size: var(--font-size-42xl);
+    line-height: 55px;
+  }
+
+  .applyRenew {
+    font-size: var(--font-size-16);
+    line-height: 26px;
+  }
+
+  .busPassStudentPasses1 {
+    padding: 0 var(--padding-xl) var(--padding-33xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .knowMoreAboutStudentPassesWrapper {
+    padding-bottom: var(--padding-5xl);
+  }
+
+  .knowMoreAbout {
+    font-size: var(--font-size-xl);
+  }
+}

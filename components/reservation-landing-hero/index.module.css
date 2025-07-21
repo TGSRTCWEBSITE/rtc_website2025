@@ -1,0 +1,112 @@
+.reservationHeroLanding {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  font-size: var(--font-size-53xl);
+  color: var(--support-white);
+  font-family: var(--font-playfair-display);
+  z-index: 100;
+  min-height: 360px;
+}
+
+.maskGroupIcon,
+.maskGroupIconMobile {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.maskGroupIconMobile {
+  display: none;
+}
+
+.tgsrtcOnlineBusContainer {
+  position: absolute;
+  top: 7.3vw;
+  left: 7.3vw;
+  display: flex;
+  flex-direction: column;
+  max-width: 868px;
+}
+
+.bookYourTickets,
+.tgsrtcOnlineBus {
+  margin: 0;
+  mix-blend-mode: normal;
+}
+
+.tgsrtcOnlineBus {
+  font-size: inherit;
+  line-height: 82px;
+  font-weight: 600;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bookYourTickets {
+  margin-top: 10px;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+  max-width: 100%;
+  width: 599px;
+}
+
+@media screen and (max-width: 1023px) {
+  .tgsrtcOnlineBusContainer {
+    top: 11vw;
+    left: 7vw;
+  }
+
+  .tgsrtcOnlineBus {
+    font-size: var(--font-size-39xl);
+    line-height: 68px;
+  }
+
+  .bookYourTickets {
+    width: 400px;
+    font-size: var(--font-size-lgi);
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .maskGroupIcon {
+    display: none;
+  }
+
+  .maskGroupIconMobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .tgsrtcOnlineBusContainer {
+    width: 237px;
+    top: 15.3vw;
+    left: 6.4vw;
+  }
+
+  .tgsrtcOnlineBus {
+    font-size: var(--font-size-42xl);
+    line-height: 56px;
+  }
+
+  .bookYourTickets {
+    width: 237px;
+    margin-top: 8px;
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+}

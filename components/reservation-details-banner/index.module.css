@@ -1,0 +1,93 @@
+.mainContainer {
+  position: relative;
+  z-index: 100;
+  min-height: 400px;
+}
+
+.reservationBusDetailsHero {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.reservationBusDetailsHeroMobile {
+  display: none;
+}
+
+.reservationBusDetailsHeroContent {
+  position: absolute;
+  top: 102px;
+  left: 96px;
+  display: flex;
+  gap: var(--gap-xs);
+  flex-flow: column;
+}
+
+.reservationBusDetailsHeroHeading {
+  color: var(--support-white);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-family: var(--font-playfair-display);
+  font-size: var(--font-size-53xl);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 82px;
+  margin: 0;
+}
+
+.reservationBusDetailsHeroPara {
+  color: var(--support-white);
+  text-align: center;
+  font-family: var(--font-montserrat);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .reservationBusDetailsHero {
+    display: none;
+  }
+
+  .reservationBusDetailsHeroMobile {
+    display: block;
+    width: 100%;
+  }
+
+  .reservationBusDetailsHeroContent {
+    left: 60px;
+    top: 190px;
+  }
+
+  .reservationBusDetailsHeroHeading {
+    font-size: var(--font-size-39xl);
+  }
+
+  .reservationBusDetailsHeroPara {
+    font-size: var(--font-size-lg);
+    max-width: 326px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .reservationBusDetailsHeroContent {
+    top: unset;
+    bottom: 28.6%;
+    left: 23px;
+    gap: var(--gap-5xs);
+  }
+
+  .reservationBusDetailsHeroHeading {
+    font-size: var(--font-size-42xl);
+    line-height: normal;
+  }
+
+  .reservationBusDetailsHeroPara {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+    max-width: 237px;
+    text-align: left;
+  }
+}

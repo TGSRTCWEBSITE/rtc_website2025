@@ -1,0 +1,59 @@
+.annexureContainer,
+.bulletPointContainer,
+.bulletPoints {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.annexureContainer {
+  align-items: center;
+  width: 1166px;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--text-black);
+  font-family: var(--font-playfair-display);
+  padding-top: 84px;
+}
+.annexureA,
+.guidingPrinciplesOf {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+.guidingPrinciplesOf{
+  color: var(--primary-red);
+}
+
+.bulletPointContainer {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-5xl);
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bulletPoints{
+  margin: 0;
+  padding: 0 0 0 16px!important; 
+}
+.ratesTable5{
+  margin: 0 !important;
+  width: 100%;
+}
+@media screen and (max-width: 599px) {
+  .annexureA {
+    font-size: var(--font-size-13xl);
+  }
+  .annexureContainer {
+    gap: var(--gap-base);
+  }
+}

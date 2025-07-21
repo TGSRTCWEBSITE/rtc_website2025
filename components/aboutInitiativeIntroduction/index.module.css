@@ -1,0 +1,74 @@
+
+.introduction {
+    padding: var(--padding-81xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-13xl);
+    margin: 0 auto;
+    max-width: 1166px;
+}
+
+.introHeading {
+    font-family: var(--font-playfair-display);
+    font-size: var(--font-size-27xl);
+    font-weight: 600;
+    line-height: 61.32px;
+    text-align: left;
+    color: var(--text-black);
+}
+
+.introContent {
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-5xl);
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    color: var(--text-grey-body-text);
+}
+@media screen and (max-width:1024px) {
+    .introHeading{
+        font-size: var(--font-size-42xl);
+    }
+    .introContent{
+        font-size: var(--font-size-xl);
+    }
+    .introduction{
+        padding: var(--padding-61xl);
+    }
+}
+
+
+@media screen and (max-width:599px) {
+
+    .introduction {
+        padding: var(--padding-41xl) var(--padding-409xs) var(--padding-41xl) var(--padding-409xs);
+    }
+
+    .introHeading {
+        font-size: var(--font-size-13xl);
+        line-height: 42.66px;
+    }
+
+    .introContent {
+        font-size: var(--font-size-base);
+        line-height: 26px;
+    }
+  
+}
+@media screen and (max-width:360px) {
+    .introduction {
+        padding: var(--padding-41xl) var(--padding-409xs) var(--padding-41xl) var(--padding-409xs);
+    }
+
+    .introHeading {
+        font-size: var(--font-size-13xl);
+        line-height: 42.66px;
+    }
+
+    .introContent {
+        font-size: var(--font-size-base);
+        line-height: 26px;
+    }
+   
+}

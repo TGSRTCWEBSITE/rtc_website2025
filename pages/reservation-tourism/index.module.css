@@ -1,0 +1,76 @@
+.busDust {
+  display: none;
+  height: 780px;
+  width: 128px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -286px;
+  left: 0;
+  object-fit: cover;
+}
+.lifeIsShort,
+.travelIsThe {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+.travelAcrossTelangana {
+  margin:16px 0 0;
+  font-size: var(--font-size-5xl);
+  line-height: 36px;
+  font-weight: 400;
+  font-family: var(--font-montserrat);
+  color: var(--text-grey-body-text);
+}
+.content,
+.reservationQuote {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.reservationQuote {
+  background-color: var(--support-white);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 160px var(--padding-111xl);
+  box-sizing: border-box;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-27xl);
+  color: var(--text-black);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1280px) {
+  .reservationQuote{
+    padding: 160px var(--padding-21xl);
+  }
+}
+@media screen and (max-width: 1023px) {
+  .lifeIsShort,
+  .travelIsThe {
+    font-size: var(--font-size-19xl);
+  }
+  .reservationQuote {
+    padding: var(--padding-41xl) var(--padding-5xl);
+  }
+}
+@media screen and (max-width: 599px) {
+  .lifeIsShort,
+  .travelIsThe {
+    font-size: var(--font-size-13xl);
+  }
+  .travelAcrossTelangana {
+    font-weight: 500;
+    margin: 16px 16px 0;
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+}

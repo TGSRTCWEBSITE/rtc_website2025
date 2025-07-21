@@ -1,0 +1,197 @@
+.aboutHospital,
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.texts {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+}
+.aboutHospital {
+  width: 1166px;
+  box-shadow: var(--card);
+  border-radius: var(--br-base);
+  background-color: var(--support-white);
+  padding: var(--padding-41xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aboutHospitalHeading {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+.imagePlaceholder,
+.titleAndLine {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.imagePlaceholder {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  align-items: flex-start;
+}
+.titleAndLine {
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--gap-13xl);
+}
+.aboutHospitalImage {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.tarnakaHospitalStands {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 40px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--text-grey-body-text);
+  text-align: center;
+}
+@media screen and (max-width: 1275px) {
+  .aboutHospital{
+    padding: var(--padding-20xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .aboutHospital {
+    padding: var(--padding-6xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .texts {
+    gap: var(--gap-xl);
+  }
+  .titleAndLine {
+    gap: var(--gap-base);
+  }
+  .aboutHospitalHeading {
+    font-size: var(--font-size-18xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutHospitalHeading {
+    font-size: var(--font-size-13xl);
+  }
+  .tarnakaHospitalStands {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+}
+.hospitalAboutWhatServiceWe,
+.serviceProviderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.serviceProviderContainer {
+  width: 1166px;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  color: var(--text-black);
+}
+.hospitalAboutWhatServiceWe {
+  align-self: stretch;
+  background-color: var(--support-grey-bg);
+  justify-content: center;
+  padding: var(--padding-81xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-81xl);
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1275px) {
+  .hospitalAboutWhatServiceWe {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .hospitalAboutWhatServiceWe {
+    gap: var(--gap-31xl);
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) { 
+  .hospitalAboutWhatServiceWe {
+    gap: var(--gap-41xl);
+  }
+}
+.whatServiceWe {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  text-align: center;
+}
+.textCardContianer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--text-grey-body-text);
+  font-family: var(--font-montserrat);
+  flex-direction: row;
+  align-self: stretch;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-24xl);
+  gap: var(--gap-21xl);
+  text-align: center;
+}
+@media screen and (max-width: 1275px) {
+  .textCardContianer {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .whatServiceWe {
+    font-size: var(--font-size-18xl);
+  }
+  .textCardContianer {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatServiceWe {
+    font-size: var(--font-size-13xl);
+  }
+  .textCardContianer{
+    box-shadow: var(--table-shadow);
+    border-radius: var(--br-xs);
+    background-color: var(--support-white);
+    gap: 0;
+    padding: 4px var(--padding-xl);
+  }
+  .textCardContianer div:last-child{
+    display: none;
+  } 
+}

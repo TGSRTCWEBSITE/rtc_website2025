@@ -1,0 +1,66 @@
+.eachAccordian {
+  width: 100%;
+}
+
+.studentConcessionalRoutePas {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 0px;
+}
+
+.routesContainer {
+  display: flex;
+  column-gap: var(--gap-21xl);
+  row-gap: var(--gap-5xl);
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+
+.card {
+  background-color: #f2f2f2;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+  padding: var(--padding-5xl);
+}
+
+.name {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-16);
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin: 0px;
+}
+
+.value {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  margin: 0px;
+}
+
+.valuesContainer {
+  margin-bottom: 22px;
+}
+
+.accordianTabStyles {
+  padding: var(--padding-mini) 0px 0px 0px;
+}
+
+@media screen and (max-width: 1023px) {
+  .name {
+    font-size: var(--font-size-sm);
+  }
+
+  .value {
+    font-size: var(--font-size-16);
+  }
+}

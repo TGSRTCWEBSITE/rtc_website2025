@@ -1,0 +1,79 @@
+.aboutVisionLegacy {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  font-family: var(--font-playfair-display); 
+}
+.aboutContent {
+  align-self: stretch;
+  max-width: 100%;
+  background-color: var(--support-grey-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-81xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  z-index: 1;
+  position: relative;
+}
+.otherServices {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  gap: var(--gap-13xl);
+  margin: 0 auto;
+  max-width: 1166px;
+}
+.otherServiceTitle {
+  color: var(--primary-black);
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.accordion {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.containerClassName {
+  background-color: var(--support-white);
+  box-shadow: var(--card-shadow);
+}
+.busDustWebsite {
+  width: 128px;
+  height: 632px;
+  position: absolute;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 4;
+  align-self: flex-start;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.busDustMobile {
+  display: none;
+  height: 128px;
+  width: 100%;
+}
+@media screen and (max-width: 1023px) {
+  .aboutContent {
+    padding: var(--padding-120) var(--padding-17xl) var(--padding-41xl);
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 599px) {
+  .aboutContent {
+    padding: var(--padding-120) var(--padding-xl) var(--padding-41xl);
+    gap: var(--gap-21xl);
+    padding-top: 0;
+  }
+
+}

@@ -1,0 +1,13 @@
+.headingText {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: left;
+  color: #020202;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.container {
+padding: 16px 0px 0px 0px;
+}

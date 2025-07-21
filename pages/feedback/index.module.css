@@ -1,0 +1,95 @@
+.contactUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.heroSection {
+    width: 100%;
+    position: relative;
+    background-image: url(/contact-us-bg-web-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+    min-height: 400px;
+}
+
+.contactUsContent {
+    position: relative;
+    display: flex;
+    gap: var(--gap-75xs);
+    max-width: 1166px;
+    justify-content: center;
+    padding: 4.9vw var(--padding-81xl) var(--padding-61xl);
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+
+.contactContentRight {
+    /* for feedback form it is set to display block */
+    display: block;
+    max-width: 509px;
+}
+
+
+
+
+
+@media screen and (max-width: 1220px) {
+    .contactUsContent {
+        width: unset;
+    }
+
+    .contactContentRight {
+        width: 50%;
+        max-width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    .contactUsContent {
+        gap: var(--gap-18xl);
+    }
+
+    .contactUsContent,
+    .otherServices {
+        padding: var(--padding-61xl) var(--padding-17xl);
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .contactUsContent {
+        flex-direction: column;
+        gap: var(--gap-11xl);
+        background-image: url(/contact-us-bg-mobile-image.webp);
+        background-size: cover;
+    }
+
+} 
+
+@media screen and (max-width: 599px) {
+
+
+    .contactUsContent {
+        gap: var(--gap-5xl);
+    }
+
+    .contactUsContent,
+    .otherServices {
+        padding: var(--padding-41xl) var(--padding-xl);
+    }
+    .contactContentRight { /* adjusted form width for responsive*/
+        width: 100%;
+        max-width: 100%;
+    }
+
+}

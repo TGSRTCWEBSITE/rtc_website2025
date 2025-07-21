@@ -1,0 +1,39 @@
+.bulletPointContainer,
+.itemCellParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.itemCellParent {
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--text-black);
+  font-family: var(--font-montserrat);
+}
+.tableTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-base);
+  max-width: 100%;
+  color: var(--primary-red);
+  font-family: var(--font-playfair-display);
+}
+.ratesTable4{
+  margin: 0 !important;
+  width: 100%;
+}
+.bulletPoints{
+  margin: 0;
+  padding: 0 0 0 16px!important;
+}

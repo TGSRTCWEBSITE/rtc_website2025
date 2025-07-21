@@ -1,0 +1,549 @@
+.bookYourCargo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+
+.h1,
+.vectorIcon {
+  position: absolute;
+}
+
+.vectorIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.h1 {
+  margin: 0;
+  top: 22px;
+  left: 25px;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 21px;
+  z-index: 1;
+}
+
+.vectorParent {
+  position: absolute;
+  height: 100%;
+  width: 72.92%;
+  top: 0;
+  right: 27.08%;
+  bottom: 0;
+  left: 0;
+}
+
+.frameChild {
+  width: 100%;
+  z-index: 2;
+}
+
+.infographics {
+  max-width: 160px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-5) var(--padding-3xl);
+  box-sizing: border-box;
+}
+
+.infographicContainerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 100px;
+}
+
+.bulkCtvCargo,
+.rates {
+  margin: 0;
+}
+
+.busPasses {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  max-width: 193px;
+}
+
+.loremIpsumDolor {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 26px;
+  white-space: pre-wrap;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.texts {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.lineSeparatorIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: clip;
+  max-height: unset;
+}
+
+.lineSeparater {
+  align-self: stretch;
+  height: 0;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.applyNow {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 79px;
+}
+
+.button1 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  white-space: nowrap;
+}
+
+.applyNow1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: center;
+}
+
+.button2,
+.buttonsContainer {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button2 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  display: none;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  white-space: nowrap;
+}
+
+.buttonsContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  gap: var(--gap-base);
+}
+
+.bodyContainer,
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bodyContainer {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-5xl);
+  color: var(--text-grey-body-text);
+  font-family: var(--font-montserrat);
+}
+
+.cards {
+  box-shadow: var(--table-shadow);
+  border-radius: var(--br-base);
+  background-color: var(--support-white);
+  /* align-items: flex-start; */
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  width: 427px;
+  height: 390px;
+}
+
+.vectorIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.h11 {
+  margin: 0;
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 26px;
+  z-index: 1;
+}
+
+.vectorGroup {
+  position: absolute;
+  height: 100%;
+  width: 73.07%;
+  top: 0;
+  right: 26.93%;
+  bottom: 0;
+  left: 0;
+}
+
+.frameItem {
+  position: absolute;
+  top: 35px;
+  left: 54.3px;
+  width: 41.6px;
+  height: 33.3px;
+  z-index: 2;
+}
+
+.frameGroup {
+  align-self: stretch;
+  height: 70px;
+  position: relative;
+}
+
+.infographicsItem {
+  margin-left: -25.099999999998545px;
+  width: 146px;
+  height: 7px;
+  position: relative;
+  filter: blur(14px);
+  border-radius: 50%;
+  background-color: var(--color-gray-200);
+}
+
+.infographics1 {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-5) var(--padding-3xl);
+  box-sizing: border-box;
+}
+
+.infographicContainer1,
+.infographicContainerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.infographicContainerContainer {
+  align-self: stretch;
+  justify-content: center;
+}
+
+.parcelCovers,
+.tariffParcels {
+  margin: 0;
+}
+
+.busPasses1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  mix-blend-mode: normal;
+}
+
+.loremIpsumDolor1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 26px;
+  white-space: pre-wrap;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.texts1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.lineSeparatorIcon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: clip;
+  max-height: unset;
+}
+
+.lineSeparater1 {
+  align-self: stretch;
+  height: 0;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.applyNow2 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 79px;
+}
+
+.button11 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  white-space: nowrap;
+}
+
+.applyNow3 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--support-white);
+  text-align: center;
+}
+
+.button21,
+.buttonsContainer1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button21 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-381xl);
+  background: linear-gradient(90deg, #19ac58, #077f3b);
+  display: none;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs);
+  white-space: nowrap;
+}
+
+.buttonsContainer1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  gap: var(--gap-base);
+}
+
+.bodyContainer1,
+.cards1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.bodyContainer1 {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-5xl);
+  color: var(--text-grey-body-text);
+  font-family: var(--font-montserrat);
+}
+
+.cards1 {
+  flex: 1;
+  box-shadow: var(--table-shadow);
+  border-radius: var(--br-base);
+  background-color: var(--support-white);
+  align-items: flex-start;
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  min-width: 278px;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+
+.cardContainer,
+.logisticBookYourCargoSecti {
+  display: flex;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+
+.cardContainer {
+  width: 894px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-inter);
+}
+
+.logisticBookYourCargoSecti {
+  align-self: stretch;
+  background-color: var(--support-grey-bg);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-xl) var(--padding-81xl);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+
+@media screen and (max-width: 750px) {
+
+  .bookYourCargo {
+    font-size: var(--font-size-18xl);
+  }
+
+  .h1 {
+    font-size: var(--font-size-13xl);
+  }
+
+  .h11 {
+    font-size: var(--font-size-7xl);
+  }
+
+  .logisticBookYourCargoSecti {
+    gap: var(--gap-xl);
+    padding-top: 0px;
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+
+  .cards {
+    width: 312px;
+    height: 338px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .logisticBookYourCargoSecti {
+    gap: var(--gap-xl);
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bookYourCargo {
+    font-size: var(--font-size-13xl);
+  }
+
+  .h1 {
+    font-size: var(--font-size-5xl);
+  }
+
+  .busPasses {
+    font-size: var(--font-size-lgi);
+  }
+
+  .cards {
+    padding: var(--padding-xl);
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+
+  .buttonsContainer {
+    width: 100%;
+  }
+
+  .button1 {
+    width: 100%;
+  }
+
+  .busPasses1,
+  .h11 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .cards1 {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+
+  .cardContainer {
+    gap: var(--gap-xl);
+  }
+}

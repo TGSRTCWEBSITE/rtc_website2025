@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  padding-top: var(--padding-base);
+  margin: 0;
+}
+
+.linkText {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: #020202;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs) var(--padding-base);
+  margin: 0;
+  background: #f1f8f4;
+}
+
+.link {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: #020202;
+  word-break: break-all;
+  cursor: pointer;
+
+}
+
+.link:hover {
+  color: var(--primary-red);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+  .linkText {
+    font-size: var(--font-size-sm);
+  }
+
+  .link {
+    font-size: var(--font-size-sm);
+  }
+}

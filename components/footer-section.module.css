@@ -1,0 +1,254 @@
+.tsrtcFooterLogo {
+  height: 73px;
+  width: 73px;
+  position: relative;
+  object-fit: cover;
+}
+
+.icon {
+  width: 327.3px;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.telanganaStateRoadTransport {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logo,
+.logoTextGroup {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.logoTextGroup {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-2xs);
+  min-width: 313px;
+}
+
+.logo {
+  width: 568.6px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 568.6px;
+}
+
+.careers,
+.quicklinks {
+  position: relative;
+  display: inline-block;
+}
+
+.quicklinks {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  min-width: 81px;
+}
+
+.careers {
+  min-width: 53px;
+  color: var(--support-white);
+}
+
+.siteMap {
+  text-decoration: none;
+  color: inherit;
+  min-width: 62px;
+}
+
+.aboutUs,
+.contactUs,
+.siteMap {
+  position: relative;
+  display: inline-block;
+  color: var(--support-white);
+}
+
+.aboutUs {
+  text-decoration: none;
+  color: inherit;
+  min-width: 66px;
+}
+
+.contactUs {
+  min-width: 76px;
+}
+
+.quicklinksSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+
+.information {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.information,
+.rtiAct2005 {
+  position: relative;
+  display: inline-block;
+  min-width: 91px;
+  color: var(--support-white);
+}
+
+.feedback,
+.privacyPolicies,
+.roadSafety {
+  position: relative;
+  display: inline-block;
+  min-width: 84px;
+  color: var(--support-white);
+}
+
+.feedback,
+.privacyPolicies {
+  min-width: 107px;
+}
+
+.feedback {
+  min-width: 69px;
+}
+
+.informationSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+
+.busPasses,
+.faqs,
+.reservations {
+  position: relative;
+  display: inline-block;
+}
+
+.faqs {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  min-width: 40px;
+}
+
+.busPasses,
+.reservations {
+  min-width: 90px;
+  color: var(--support-white);
+}
+
+.busPasses {
+  min-width: 78px;
+}
+
+.faqsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+
+.footerSection,
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.linksContainer {
+  max-width: 386px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-31xl);
+  min-width: 386px;
+}
+
+.footerSection {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--support-white);
+  font-family: var(--font-montserrat);
+}
+
+.footerLogoSection {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .linksContainer,
+  .logo {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 1049px) {
+
+
+  .footerLogoImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .linksContainer {
+    flex-wrap: wrap;
+    gap: var(--gap-18xl);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footerLogoSection {
+    padding-bottom: var(--padding-21xl);
+  }
+  .footerSection {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .logoTextGroup{
+    align-items: center;
+  }
+  .linksContainer {
+    margin: auto;
+  }
+  .logo {  
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 599px) {
+  .linksContainer {
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 300px;
+  }
+  .icon{
+    width: 250px;
+  }
+  .footerLogoSection {
+    padding-bottom: var(--padding-21xl);
+  }
+  .logo{
+    min-width: 0px;
+    width: 0px;
+  }
+  .telanganaStateRoadTransport{
+    max-width: 300px;
+  }
+}

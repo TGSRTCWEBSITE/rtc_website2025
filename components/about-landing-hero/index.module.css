@@ -1,0 +1,98 @@
+.AboutLandingHero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    font-size: var(--font-size-53xl);
+    color: var(--support-white);
+    font-family: var(--font-playfair-display);
+    z-index: 100;
+    min-height: 350px;
+  }
+  .AboutLandingHeroWebImage ,
+  .AboutLandingHeroMobileImage{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .AboutLandingHeroMobileImage{
+    display: none;
+  }
+  .contentWrapper{
+    position: absolute;
+    width: 304px;
+    top: 18vw;
+    left: 7.3vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .AboutLandingHeroSubTitle,
+  .AboutLandingHeroTitle {
+    margin: 0;
+    mix-blend-mode: normal;
+  }
+  .AboutLandingHeroTitle {
+    font-size: inherit;
+    line-height: 92px;
+    font-weight: 600;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  }
+  .AboutLandingHeroSubTitle {
+    margin-top: 10px;
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+    max-width: 100%;
+    width: 599px;
+    display: none;
+  }
+  @media screen and (max-width: 1023px) {
+    .contentWrapper{
+      top: 20vw;
+      left: 7.3vw;
+    }
+    .AboutLandingHeroTitle {
+      font-size: var(--font-size-39xl);
+      line-height: 68px;
+    }
+    .AboutLandingHeroSubTitle {
+      width: 400px;
+      font-size: var(--font-size-lgi);
+      line-height: 28px;
+    }
+  }
+  @media screen and (max-width: 720px) {
+    .AboutLandingHeroWebImage{
+      display: none;
+    }
+    .AboutLandingHeroMobileImage{
+      display: block;
+    }
+  }
+  @media screen and (max-width: 599px) {
+    .contentWrapper{
+      width: 237px;
+      top:58.6vw;
+      left: 6.4vw;
+    }
+    .AboutLandingHeroTitle {
+      font-size: var(--font-size-42xl);
+      line-height: 56px;
+    }
+    .AboutLandingHeroSubTitle {
+      width: 237px;
+      margin-top: 8px;
+      font-size: var(--font-size-xl);
+      line-height: 26px;
+    }
+  }

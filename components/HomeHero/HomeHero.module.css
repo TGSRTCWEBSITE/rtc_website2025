@@ -1,0 +1,87 @@
+.tgsrtcServing {
+  width: 85.5%;
+  font-size: var(--font-size-63xl);
+  line-height: 100px;
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+  color: var(--primary-green);
+  text-align: center;
+}
+
+.homeHero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: row;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-63xl);
+  color: var(--primary-green);
+  font-family: var(--font-playfair-display);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 300px;
+}
+
+.titleSection{
+  background-image: url("/white-clouds.svg");
+  background-size: cover;
+  width: 67.5%;
+  height: 28vw;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.bgImageSection{
+  width: 100%;
+  height: auto;
+}
+.bgImage{
+  width: 100%;
+  height: 100%;
+}
+.bgImageSectionMobile{
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  .tgsrtcServing {
+    font-size: 58px;
+    width: 400px;
+    line-height: 60px;
+  }
+  .titleSection{
+    width: 500px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .tgsrtcServing {
+    font-size: 48px;
+    width: 400px;
+    line-height: normal;
+    max-width: 246px;
+    margin: 0;
+    padding: 100px 0;
+  }
+  .titleSection{
+    background-image: url("/white-clouds-mobile.png");
+    width: 100%;
+    height: unset;
+  }
+  .bgImageSection{
+    display: none;
+  }
+  .bgImageSectionMobile{
+    display: block;
+    max-width: 100%;
+  }
+  .bgImageMobile{
+    width: 100%;
+  }
+ 
+}
+

@@ -1,0 +1,111 @@
+.applyRenewTravelEffortleWrapper {
+  box-sizing: border-box;
+  left: 100px;
+  top: 213px;
+  position: absolute;
+  flex-direction: column;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-montserrat);
+}
+
+.reservationHeroConcessionSc {
+  box-sizing: border-box;
+  max-width: 100%;
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  text-align: left;
+  color: var(--support-white);
+  font-family: var(--font-playfair-display);
+  z-index: 100;
+  min-height: 296px;
+}
+
+.applyRenew {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+  align-self: stretch;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: inherit;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+
+.concessionSchemes {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: var(--font-size-53xl);
+  line-height: 82px;
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+
+.maskGroupIcon {
+  height: auto;
+  width: 100%;
+  margin: 0 !important;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.maskGroupIconMobile {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .reservationHeroConcessionSc {
+    box-sizing: border-box;
+  }
+
+  .concessionSchemes {
+    font-size: var(--font-size-39xl);
+  }
+
+  .applyRenew {
+    font-size: var(--font-size-xl);
+  }
+
+  .applyRenewTravelEffortleWrapper {
+    left: 50px;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .applyRenewTravelEffortleWrapper {
+    width: 66%;
+    left: 23px;
+    top: 67px;
+  }
+
+  .maskGroupIcon {
+    display: none;
+  }
+
+  .maskGroupIconMobile {
+    display: block;
+    width: 100%;
+  }
+
+  .applyRenew {
+    font-size: var(--font-size-16);
+    line-height: 26px;
+  }
+
+  .concessionSchemes {
+    font-size: var(--font-size-42xl);
+    line-height: 49px;
+  }
+
+  .reservationHeroConcessionSc {
+    box-sizing: border-box;
+  }
+}

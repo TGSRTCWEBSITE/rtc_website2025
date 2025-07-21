@@ -1,0 +1,118 @@
+.bgIcon,
+.bgIconmobile {
+  width: 100%;
+  height: auto;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.applyRenew,
+.busPassServices1 {
+  margin: 0;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+
+.busPassContent {
+  position: absolute;
+  top: 19.8vw;
+  left: 7.35vw;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.busPassServices1 {
+  font-size: var(--font-size-53xl);
+  line-height: 92px;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.applyRenew {
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 500;
+  margin-top: 10px;
+  font-family: var(--font-montserrat);
+}
+
+.busPassServices {
+  position: relative;
+  width: 100%;
+  line-height: normal;
+  letter-spacing: normal;
+  background-color: var(--support-grey-bg);
+}
+
+.busPassHeroBusPassService,
+.busPassServices {
+  position: relative;
+  display: flex;
+  z-index: 100;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.busPassHeroBusPassService {
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-53xl);
+  color: var(--support-white);
+  font-family: var(--font-playfair-display);
+  min-height: 400px;
+}
+
+@media screen and (max-width: 1023px) {
+  .busPassServices1{
+    font-size: var(--font-size-39xl);
+      line-height: 68px;
+  }
+  .busPassContent{
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .busPassHeroBusPassService {
+    box-sizing: border-box;
+  }
+
+  .applyRenew {
+    font-size: var(--font-size-16);
+    line-height: 26px;
+    max-width: 237px;
+    font-weight: 500;
+    margin-top: 16px;
+  }
+
+  .busPassContent {
+    top: 58.6vw;
+    left: 6.3vw;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .busPassContent {
+    max-width: 237px;
+  }
+
+  .busPassServices1 {
+    font-size: var(--font-size-42xl);
+    line-height: 55px;
+  }
+
+  .applyRenew {
+    font-size: var(--font-size-16);
+    line-height: 26px;
+    font-weight: 500;
+  }
+}

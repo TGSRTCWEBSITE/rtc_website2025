@@ -1,0 +1,152 @@
+.accordian {
+  padding-bottom: var(--padding-5xs);
+  width: calc(100% - 25px);
+}
+
+.studentConcessionalRoutePas {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+
+.before6AmContainer1 {
+  font-weight: 600;
+  z-index: 1;
+  font-size: var(--font-size-xl);
+  margin: 0px;
+}
+
+.accordianDropdownIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.accordianHeading::marker {
+  text-align: center !important;
+  border: 1px solid red;
+}
+
+.accordianDetails {
+  padding: 0px;
+  width: calc(100% + 23px);
+}
+
+.accordianTab {
+  margin-top: -15px;
+  width: auto;
+  background-color: var(--support-white);
+  padding: var(--padding-base) var(--padding-41xl) var(--padding-5xl) var(--padding-41xl);
+}
+
+.dropdown {
+  width: calc(100% - 17px);
+  padding: 0px 0px 0px var(--padding-21xl);
+  margin-bottom: 0px;
+  min-height: 58px;
+  box-shadow: var(--card-shadow) !important
+}
+
+.accordianHeading {
+  font-weight: 500;
+  font-size: var(--font-size-xl);
+  line-height: 26px;
+  font-family: var(--font-montserrat);
+}
+
+.expandedAccordion {
+  box-shadow: var(--card-shadow);
+
+}
+
+@media screen and (max-width: 900px) {
+  .accordianDetails {
+    width: calc(100% + 23px);
+  }
+
+  .accordianTab {
+    padding-top: var(--padding-xl);
+    padding-left: var(--padding-45xl);
+    padding-right: var(--padding-45xl);
+  }
+
+  .accordianHeading {
+    font-weight: 500;
+    font-size: var(--font-size-16);
+    line-height: 26px;
+    font-family: var(--font-montserrat);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .accordianDetails {
+    width: calc(100% + 7px);
+  }
+
+  .accordianTab {
+    background-color: var(--support-white);
+    padding: var(--padding-xl) var(--padding-base) var(--padding-5xl) var(--padding-19xl);
+  }
+
+  .accordianHeading {
+    font-weight: 500;
+    font-size: var(--font-size-16);
+    line-height: 26px;
+    font-family: var(--font-montserrat);
+  }
+
+  .dropdown {
+    width: calc(100% - 17px);
+    padding: 0px 0px 0px var(--padding-5xl);
+  }
+}
+
+@media screen and (min-width: 599px) and (max-width: 749px) {
+  .accordianDetails {
+    width: calc(100% + 23px);
+  }
+
+  .accordianTab {
+    padding-top: var(--padding-xl);
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+  }
+
+  .accordianHeading {
+    font-weight: 500;
+    font-size: var(--font-size-16);
+    line-height: 26px;
+    font-family: var(--font-montserrat);
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .dropdown {
+    width: 100%;
+  }
+
+  .accordianDetails {
+    width: calc(100% + 23px);
+  }
+
+  .accordianTab {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-top: var(--padding-base);
+  }
+
+  .accordianHeading {
+    font-weight: 500;
+    font-size: var(--font-size-16);
+    line-height: 26px;
+    font-family: var(--font-montserrat);
+  }
+}
