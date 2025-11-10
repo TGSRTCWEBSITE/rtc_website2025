@@ -25,6 +25,8 @@ import {
   SITE_MAP,
   SITE_MAP_LINK,
   FEEDBACK_LINK_URL,
+  OPEN_DATA,
+  OPEN_DATA_LINK,
 } from "../constants";
 
 export type FooterSectionType = {
@@ -96,6 +98,9 @@ const FooterSection: NextPage<FooterSectionType> = ({
           </a>
           <a className={styles.contactUs} href={CONTACT_US_LINK}>
             {CONTACT_US}
+          </a>  
+            <a className={styles.contactUs} href={OPEN_DATA_LINK}>
+            { OPEN_DATA}
           </a>
         </div>
         <div className={styles.informationSection}>
