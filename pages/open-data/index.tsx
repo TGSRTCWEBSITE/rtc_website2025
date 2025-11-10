@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import styles from "./index.module.css"
 import { doFetch } from '../../services/service';
 import OpenDataBanner from '../../components/OpenDataBanner';
 import OpenDataContent from '../../components/OpenDataContent';
@@ -24,7 +23,7 @@ const AboutItInitiative = ({data}) => {
 
 
   return (<>
-    <div className={styles.aboutInitiative}>
+    <div>
    <OpenDataBanner data={data}/>
    <OpenDataContent data={data} />
     </div>
