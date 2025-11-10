@@ -1,0 +1,115 @@
+.heroSection {
+    height: auto;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    min-height: 300px;
+}
+
+.heroBackgroundImageWeb {
+    height: 100%;
+    width: 100%;
+}
+
+.heroBackgroundImageMobile {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.heroSectionContent {
+    text-shadow: var(--text-shadow);
+    z-index: 1;
+    position: absolute;
+    top: 102px;
+    left: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-sm);
+}
+
+.heroTitle {
+    font-family: var(--font-playfair-display);
+    font-size: var(--font-size-53xl);
+    font-weight: 600;
+    line-height: 82px;
+    text-align: left;
+    color: var(--support-white);
+}
+
+.heroSubtitle {
+    font-family: var(--font-montserrat);
+    font-size: var(--font-size-5xl);
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--support-white);
+    text-align: left;
+}
+
+@media screen and (max-width:1024px) {
+    .heroSectionContent{
+        top:90px;
+    }
+    .heroTitle{
+        font-size: var(--font-size-19xl);
+        line-height: 45.99px;
+    }
+}
+@media screen and (max-width:740px) {
+    .heroSectionContent{
+        right:180px;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .heroBackgroundImageWeb {
+        display: none;
+    }
+
+    .heroBackgroundImageMobile {
+        display: block;
+    }
+
+    .heroSectionContent {
+        top: 210.57px;
+        left: 23px;
+        right: 100px;
+    }
+
+    .heroTitle {
+        font-size: var(--font-size-42xl);
+        line-height: 55.99px;
+    }
+
+    .heroSubtitle {
+        font-size: var(--font-size-base);
+        line-height: 26px;
+    }
+
+}
+@media screen and (max-width:360px) {
+    .heroBackgroundImageWeb {
+        display: none;
+    }
+
+    .heroBackgroundImageMobile {
+        display: block;
+    }
+
+    .heroSectionContent {
+        top: 210.57px;
+        left: 23px;
+        right: 100px;
+    }
+
+    .heroTitle {
+        font-size: var(--font-size-42xl);
+        line-height: 55.99px;
+    }
+
+    .heroSubtitle {
+        font-size: var(--font-size-base);
+        line-height: 26px;
+    }
+
+}

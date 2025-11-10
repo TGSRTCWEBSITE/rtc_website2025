@@ -61,6 +61,8 @@ export const CHENNAI = "Chennai";
 export const CITY_SERVICES = "City Services";
 export const CONCESSION_SCHEMES = "Concession Schemes";
 export const CONTACT_US = "Contact Us";
+export const OPEN_DATA = "Open Data";
+export const OPEN_DATA_LINK= "/open-data"
 export const CONTACT_US_LINK = "/contact-us";
 export const FEEDBACK_LINK_URL =
   "/feedback";

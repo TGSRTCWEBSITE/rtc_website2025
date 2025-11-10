@@ -24,7 +24,7 @@ interface AboutInitiativeHeroProps {
     data: HeroData;
 }
 
-const AboutInitiativeHero: React.FC<AboutInitiativeHeroProps> = ({ data }) => {
+const   AboutInitiativeHero: React.FC<AboutInitiativeHeroProps> = ({ data }) => {
   return (
     <section className={styles.heroSection}>
     <img className={styles.heroBackgroundImageWeb} alt="hero background image website" src={UPLOADS_BASE_URL + data?.heroBackgroundImageWeb?.data?.attributes?.url} loading='lazy' />
