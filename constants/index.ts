@@ -55,7 +55,7 @@ export const BUS_PASSES_PARAGRAPH =
 export const BOOK_NOW_LOGISTICS = "https://tgsrtclogistics.co.in/TSRTC/";
 
 export const BOOK_NOW_BUSPASSES = "https://tgsrtcpass.com/"
-export const CAREERS = "Careers";
+export const CAREERS = "Recruitment";
 export const CAREERS_LINK = "/careers";
 export const CHENNAI = "Chennai";
 export const CITY_SERVICES = "City Services";
