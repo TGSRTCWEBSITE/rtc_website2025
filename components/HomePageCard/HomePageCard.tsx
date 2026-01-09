@@ -99,6 +99,14 @@ const BookYourServiceCards: NextPage<BookYourServiceCardType> = ({
     } else if (index === 2) {
       // page to open in a new tab.
       window.open(link);
+    } 
+    else if (index === 3) {
+      // page to open in a new tab.
+      window.open(link);
+    }
+     else if (index === 4) {
+      // page to open in a new tab.
+      window.open(link);
     } else {
       router.push(HOSPITAL_LINK);
     }
