@@ -57,7 +57,7 @@ const HomeBannerAnimation: React.FC<CarouselInterface> = ({
     infinite: false,
     // autoplay: autoplay,
     autoplaySpeed: 3000,
-    speed: 500,
+    speed: 1000,
     slidesToShow: perView,
     slidesToScroll: perView,
     arrows: !secondary,
