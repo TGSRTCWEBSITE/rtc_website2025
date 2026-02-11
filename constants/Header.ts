@@ -155,12 +155,7 @@ export const headerData: HeaderConfig[] = [
     isNavLink: true,
     link: TENDERS_LINK,
   },
-  {
-    displayName: "Medaram-Jatara",
-    isNavLink: true,
-    link: MEDARAM_LINK,
-  },
-
+  
   {
     displayName: "TGSRTC Hospital",
     isNavLink: false,
