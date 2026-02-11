@@ -280,6 +280,7 @@ export const TELEPHONE_TYPE = "number";
 export const TENDERS = "Tenders";
 export const TENDERS_LINK = "/tenders";
 export const RECRUITMENT_LINK = "/careers";
+export const MEDARAM_LINK = "https://tgsrtchospital.com/announcement/";
 export const TERMS_AND_CONDITIONS = "Terms & Condition";
 export const TEXT_TYPE = "text";
 export const TGSRTC = "TGSRTC";

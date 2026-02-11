@@ -157,8 +157,7 @@ export const headerData: HeaderConfig[] = [
     isNavLink: true,
     link: TENDERS_LINK,
   },
- 
-  {
+   {
     displayName: "TGSRTC Hospital",
     isNavLink: false,
     dropDown: 0,
