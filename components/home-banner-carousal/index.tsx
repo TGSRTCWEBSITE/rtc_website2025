@@ -52,7 +52,7 @@ const HomeBannerAnimation: React.FC<CarouselInterface> = ({
 
   const settings = {
     // Not to display the dots in banner section and stop autoplay of corrousal
-    dots: false,
+    dots: true,
     // We set the infinity prop to false to resolve the duplicate banner issue.
     infinite: false,
     // autoplay: autoplay,
