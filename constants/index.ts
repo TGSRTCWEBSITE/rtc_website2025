@@ -292,7 +292,9 @@ export const TGSRTC_EMPLOYEE = "+91-9154298785 - For TGSRTC Employee";
 export const TGSRTC_HOSPITAL = "TGSRTC Hospital";
 export const TOURISM_CARD_BOOKNOW = "https://www.tgsrtcbus.in/oprs-web/services/packagetours.do";
 export const TGSRTC_HOSPITAL_EMAIL = "support@TSRTChospital.com";
-export const TGSRTC_HOSIPTAL_LINK = "https://tgsrtchospital.com/appointment-booking/"
+export const TGSRTC_HOSIPTAL_LINK = "https://tgsrtchospital.com/appointment-booking/";
+export const TGSRTC_STALL_LINK = "https://tgsrtchospital.com/appointment-booking/"
+export const TGSRTC_ADVERTISEMENT_LINK = "https://tgsrtchospital.com/appointment-booking/"
 export const TGSRTC_HOSPITAL_PARAGRAPH =
   "TGSRTC Tarnaka Hospital stands out for its commitment to providing essential healthcare services to the community. With a focus on efficient diagnosis, treatment, and care, TSRTC Tarnaka Hospital serves as a vital resource for affordable and reliable medical assistance.";
 export const TGSRTC_LINK_NAME = " www.TGSRTC.telangana.gov.in";
