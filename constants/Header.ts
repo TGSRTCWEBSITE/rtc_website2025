@@ -166,7 +166,7 @@ export const headerData: HeaderConfig[] = [
   },*/
 
   {
-    displayName: "Stalls & Adds",
+    displayName: "Stalls & Ads.",
     isNavLink: false,
     dropDown: 0,
     subLinks: [
