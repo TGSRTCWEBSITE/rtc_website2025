@@ -164,25 +164,13 @@ export const headerData: HeaderConfig[] = [
     isNavLink: true,
     link: MEDARAM_LINK,
   },*/
-
-  {
+   {
     displayName: "Stalls & Ads.",
-    isNavLink: false,
-    dropDown: 0,
-    subLinks: [
-      {
-        sublinkDisplayName: "Stalls",
-        sublink: TGSRTC_STALL_LINK,
-      },
-      {
-        sublinkDisplayName: "Advertisements",
-        sublink: TGSRTC_ADVERTISEMENT_LINK,
-      },
-
-    ]
+    isNavLink: true,
+    link: TGSRTC_STALL_LINK,
   },
 
-  {
+   {
     displayName: "Contact Us",
     isNavLink: false,
     dropDown: 0,
