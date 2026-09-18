@@ -56,7 +56,7 @@ const HomeBannerAnimation: React.FC<CarouselInterface> = ({
     // We set the infinity prop to false to resolve the duplicate banner issue.
     infinite: true,
     autoplay: autoplay,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     speed: 1000,
     slidesToShow: perView,
     slidesToScroll: perView,
